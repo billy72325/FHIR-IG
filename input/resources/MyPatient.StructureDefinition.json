@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Patient-1",
-  "url": "https://build.fhir.org/ig/billy72325/FHIR-IG/StructureDefinition-Patient-1",
+  "url": "http://teha.org.tw:8080/fhir/StructureDefinition/Patient-1",
   "name": "Test Patient",
   "title": "Test Patient",
   "status": "active",
