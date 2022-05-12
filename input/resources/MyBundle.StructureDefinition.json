@@ -43,7 +43,7 @@
           {
             "code": "Patient",
             "profile": [
-              "StructureDefinition-Patient-1"
+              "/StructureDefinition-Patient-1"
             ]
           }
         ],
