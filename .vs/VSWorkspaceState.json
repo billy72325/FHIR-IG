@@ -3,14 +3,14 @@
     "",
     "\\classnotes",
     "\\input",
-    "\\input-cache",
     "\\input\\CodeSystem",
     "\\input\\cql",
     "\\input\\examples",
     "\\input\\images",
     "\\input\\images-source",
-    "\\input\\includes"
+    "\\input\\includes",
+    "\\input\\resources"
   ],
-  "SelectedNode": "\\input\\myig.xml",
+  "SelectedNode": "\\input\\resources\\ATC COVID-19 Vaccines.json",
   "PreviewInSolutionExplorer": false
 }
