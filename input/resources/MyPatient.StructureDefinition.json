@@ -16,8 +16,8 @@
       {
         "id": "Patient.identifier",
         "path": "Patient.identifier",
-        "short": "An identifier for this patient(Taiwan ID)",
-        "definition": "An identifier for this patient.(Taiwan ID)",
+        "short": "An identifier for this patient(Taiwan National ID)",
+        "definition": "An identifier for this patient.(Taiwan National ID)",
         "min": 1,
         "max": "1"
       }
