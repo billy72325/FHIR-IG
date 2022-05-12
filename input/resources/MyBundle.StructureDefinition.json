@@ -43,7 +43,7 @@
           {
             "code": "Patient",
             "profile": [
-              "https://dccfhirig.mohw.gov.tw/fhir/StructureDefinition/Patient-dcc"
+              "https://build.fhir.org/ig/billy72325/FHIR-IG/StructureDefinition-Patient-1"
             ]
           }
         ],
