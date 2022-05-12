@@ -7,7 +7,7 @@
   </extension>-->
   <url value="http://www.medinfo.org.tw/"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
-  <version value="1.0.0"/>
+  <version value="1.0.1"/>
   <name value="Taiwan NHIRD FHIR IG"/>
   <title value="Taiwan NHIRD FHIR IG"/>
   <status value="draft"/>
