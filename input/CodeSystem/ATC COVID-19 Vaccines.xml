@@ -1,0 +1,22 @@
+<div xmlns="http://www.w3.org/1999/xhtml">
+  <p>This code system https://build.fhir.org/ig/billy72325/FHIR-IG/CodeSystem/atc-vaccines-covid-19 defines the following codes:</p>
+  <table class="codes">
+    <tr>
+      <td style="white-space:nowrap">
+        <b>Code</b>
+      </td>
+      <td>
+        <b>Display</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="white-space:nowrap">
+        J07BX03<a name="atc-vaccines-covid-19-J07BX03"> </a>
+      </td>
+      <td>covid-19 vaccines</td>
+    </tr>
+  </table>
+</div>
+
+
+
