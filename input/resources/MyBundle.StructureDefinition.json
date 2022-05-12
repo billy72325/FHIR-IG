@@ -1,8 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/MyBundle",
-  "name": "MyBundle",
-  "status": "draft",
+  "id": "Bundle-1",
+  "url": "https://example.org/fhir/StructureDefinition/Bundle",
+  "name": "Bundle",
+  "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -11,6 +12,11 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Bundle.identifier",
+        "path": "Bundle.identifier",
+        "max": "0"
+      },
       {
         "id": "Bundle.entry",
         "path": "Bundle.entry",
