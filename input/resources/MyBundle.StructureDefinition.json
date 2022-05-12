@@ -43,7 +43,7 @@
           {
             "code": "Patient",
             "profile": [
-              "http://www.medinfo.org.tw/FHIR-IG/StructureDefinition-Patient-1"
+              "https://build.fhir.org/ig/billy72325/FHIR-IG/StructureDefinition-Patient-1"
             ]
           }
         ],
