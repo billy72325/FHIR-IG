@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\classnotes",
+    "\\input",
+    "\\input-cache",
+    "\\input\\CodeSystem",
+    "\\input\\cql",
+    "\\input\\examples",
+    "\\input\\images",
+    "\\input\\images-source",
+    "\\input\\includes"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\input\\myig.xml",
   "PreviewInSolutionExplorer": false
 }
