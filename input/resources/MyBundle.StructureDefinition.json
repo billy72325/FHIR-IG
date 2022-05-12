@@ -42,7 +42,7 @@
           {
             "code": "Resource",
             "profile": [
-              "Test Patient"
+              "TestPatient"
             ]
           }
         ],
