@@ -3,6 +3,7 @@
   "id": "Bundle-1",
   "url": "https://example.org/fhir/StructureDefinition/Bundle",
   "name": "Bundle",
+  "title": "Bundle for EEC",
   "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "resource",
