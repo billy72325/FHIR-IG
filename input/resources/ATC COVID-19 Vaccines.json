@@ -2012,19 +2012,19 @@
   </ul>
 </div>"
 },
-"url": "https://dccfhirig.mohw.gov.tw/fhir/ValueSet/tw-covid-19-testing-center",
-"version": "1.1.0",
+"url": "https://build.fhir.org/ig/billy72325/FHIR-IG/ValueSet/tw-covid-19-testing-center",
+"version": "1.0.1",
 "name": "Covid19TWTestingCenter",
 "title": "TW COVID-19 Testing Center List",
 "status": "active",
-"date": "2022-04-28T07:22:19+00:00",
-"publisher": "Ministry of Health and Welfare",
+"date": "2022-05-12T07:22:19+00:00",
+"publisher": " TAMI - Interoperability and Standard Work Group",
 "contact": [
 {
 "telecom": [
 {
 "system": "url",
-"value": "https://www.mohw.gov.tw/"
+"value": "http://www.medinfo.org.tw/"
 }
 ]
 }
@@ -2033,7 +2033,7 @@
 "compose": {
 "include": [
 {
-"system": "https://dccfhirig.mohw.gov.tw/fhir/CodeSystem/tw-covid-19-testing-center",
+"system": "https://build.fhir.org/ig/billy72325/FHIR-IG/ValueSet/tw-covid-19-testing-center",
 "concept": [
 {
 "code": "1531071030",
