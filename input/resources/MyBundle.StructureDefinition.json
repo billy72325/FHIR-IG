@@ -43,7 +43,7 @@
           {
             "code": "Patient",
             "profile": [
-              "https://silcoet.ntunhs.edu.tw/FHIR/StructureDefinition-Patient-1.html"
+              "https://dccfhirig.mohw.gov.tw/fhir/StructureDefinition/Patient-dcc"
             ]
           }
         ],
