@@ -43,7 +43,7 @@
           {
             "code": "Patient",
             "profile": [
-              "https://dccfhirig.mohw.gov.tw/fhir/StructureDefinition/Patient-dcc"
+              "http://teha.org.tw:8080/fhir/StructureDefinition/Patient-1"
             ]
           }
         ],
