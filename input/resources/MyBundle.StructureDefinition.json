@@ -35,6 +35,20 @@
         "max": "1"
       },
       {
+        "id": "Bundle.entry:Patient.resource",
+        "path": "Bundle.entry.resource",
+        "min": 1,
+        "type": [
+          {
+            "code": "Resource",
+            "profile": [
+              "Patient-1"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Bundle.entry:observation",
         "path": "Bundle.entry",
         "sliceName": "observation",
