@@ -43,7 +43,7 @@
           {
             "code": "Patient",
             "profile": [
-              "/StructureDefinition-Patient-1"
+              "https://silcoet.ntunhs.edu.tw/FHIR/StructureDefinition-Patient-1.html"
             ]
           }
         ],
