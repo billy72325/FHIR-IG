@@ -5,11 +5,12 @@
   "name": "Test Patient",
   "title": "Test Patient",
   "status": "active",
+  "experimental": false,
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Patient",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "baseDefinition": "http://hl7.org/fhir/uv/ips/STU1/StructureDefinition-Patient-uv-ips.html",
   "derivation": "constraint",
   "differential": {
     "element": [
