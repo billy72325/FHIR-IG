@@ -2,15 +2,14 @@
   "resourceType": "StructureDefinition",
   "id": "Patient-1",
   "url": "http://teha.org.tw:8080/fhir/StructureDefinition/Patient-1",
-  "name": "Test Patient",
+  "name": "TestPatient",
   "title": "Test Patient",
   "status": "active",
-  "experimental": false,
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
   "type": "Patient",
-  "baseDefinition": "http://hl7.org/fhir/uv/ips/STU1/StructureDefinition-Patient-uv-ips.html",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
   "derivation": "constraint",
   "differential": {
     "element": [
