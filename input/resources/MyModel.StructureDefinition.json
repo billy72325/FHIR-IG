@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "http://standard-interoperability-lab.com/StructureDefinition/MyModel",
-  "name": "MyModel",
+  "id": "Model-1",
+  "url": "http://standard-interoperability-lab.com/StructureDefinition/Model-1",
+  "name": "Model",
+  "title": "Model",
   "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "logical",
