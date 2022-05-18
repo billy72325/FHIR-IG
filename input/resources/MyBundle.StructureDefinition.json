@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Bundle-1",
-  "url": "http://standard-interoperability-lab.com/StructureDefinition-Bundle-1",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition-Bundle-1",
   "name": "Bundle",
   "title": "Bundle for EEC",
   "status": "active",
@@ -43,7 +43,7 @@
           {
             "code": "Patient",
             "profile": [
-              "http://teha.org.tw:8080/fhir/StructureDefinition/Patient-1"
+              "http://standard-interoperability-lab.com/fhir/StructureDefinition/Patient-1"
             ]
           }
         ],

@@ -1,14 +1,14 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Model-1",
-  "url": "http://standard-interoperability-lab.com/StructureDefinition/Model-1",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/Model-1",
   "name": "Model",
   "title": "Model",
   "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "logical",
   "abstract": false,
-  "type": "http://standard-interoperability-lab.com/StructureDefinition/Model-1",
+  "type": "http://standard-interoperability-lab.com/fhir/StructureDefinition/Model-1",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
   "derivation": "specialization",
   "differential": {
@@ -63,6 +63,20 @@
             "code": "code",
             "profile": [
               "http://hl7.org/fhir/StructureDefinition/code"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Model-1.Patient.PatResource",
+        "path": "Model-1.Patient.PatResource",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "url",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/url"
             ]
           }
         ]
