@@ -1,16 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\classnotes",
-    "\\input",
     "\\input\\CodeSystem",
     "\\input\\cql",
     "\\input\\examples",
     "\\input\\images",
     "\\input\\images-source",
     "\\input\\includes",
+    "\\input\\pagecontent",
     "\\input\\resources"
   ],
-  "SelectedNode": "\\input\\resources\\ATC COVID-19 Vaccines.json",
+  "SelectedNode": "\\package-list.json",
   "PreviewInSolutionExplorer": false
 }

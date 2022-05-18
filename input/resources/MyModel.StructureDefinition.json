@@ -1,0 +1,70 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "http://standard-interoperability-lab.com/StructureDefinition/MyModel",
+  "name": "MyModel",
+  "status": "active",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": false,
+  "type": "https://example.org/fhir/StructureDefinition/Test Model",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "Test Model",
+        "path": "Test Model",
+        "short": "Test Model for IG",
+        "definition": "Test Model for IG",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element"
+          }
+        ]
+      },
+      {
+        "id": "Test Model.Patient",
+        "path": "Test Model.Patient",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Test Model.Patient.PatID",
+        "path": "Test Model.Patient.PatID",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/string"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Test Model.Patient.PatLanguage",
+        "path": "Test Model.Patient.PatLanguage",
+        "short": "PatLanguage",
+        "definition": "PatLanguage",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/code"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

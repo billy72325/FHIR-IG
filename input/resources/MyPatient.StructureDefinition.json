@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Patient-1",
-  "url": "http://teha.org.tw:8080/fhir/StructureDefinition/Patient-1",
+  "url": "http://standard-interoperability-lab.com/StructureDefinition/Patient-1",
   "name": "TestPatient",
   "title": "Test Patient",
   "status": "active",
