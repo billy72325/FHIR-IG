@@ -8,14 +8,14 @@
   "fhirVersion": "4.0.1",
   "kind": "logical",
   "abstract": false,
-  "type": "https://example.org/fhir/StructureDefinition/Test Model",
+  "type": "https://example.org/fhir/StructureDefinition/Model-1",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
   "derivation": "specialization",
   "differential": {
     "element": [
       {
-        "id": "Test Model",
-        "path": "Test Model",
+        "id": "Model-1",
+        "path": "Model-1",
         "short": "Test Model for IG",
         "definition": "Test Model for IG",
         "min": 0,
@@ -27,8 +27,8 @@
         ]
       },
       {
-        "id": "Test Model.Patient",
-        "path": "Test Model.Patient",
+        "id": "Model-1.Patient",
+        "path": "Model-1.Patient",
         "min": 1,
         "max": "1",
         "type": [
@@ -38,8 +38,8 @@
         ]
       },
       {
-        "id": "Test Model.Patient.PatID",
-        "path": "Test Model.Patient.PatID",
+        "id": "Model-1.Patient.PatID",
+        "path": "Model-1.Patient.PatID",
         "min": 0,
         "max": "1",
         "type": [
@@ -52,8 +52,8 @@
         ]
       },
       {
-        "id": "Test Model.Patient.PatLanguage",
-        "path": "Test Model.Patient.PatLanguage",
+        "id": "Model-1.Patient.PatLanguage",
+        "path": "Model-1.Patient.PatLanguage",
         "short": "PatLanguage",
         "definition": "PatLanguage",
         "min": 0,
