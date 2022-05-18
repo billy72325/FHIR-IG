@@ -1,14 +1,14 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Model-1",
-  "url": "https://example.org/fhir/StructureDefinition/Model-1",
+  "url": "http://standard-interoperability-lab.com/StructureDefinition/Model-1",
   "name": "Model",
   "title": "Model",
   "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "logical",
   "abstract": false,
-  "type": "https://example.org/fhir/StructureDefinition/Model-1",
+  "type": "http://standard-interoperability-lab.com/StructureDefinition/Model-1",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
   "derivation": "specialization",
   "differential": {
