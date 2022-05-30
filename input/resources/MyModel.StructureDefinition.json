@@ -22,7 +22,7 @@
         "max": "*",
         "type": [
           {
-            "code": "Reference"
+            "code": "Element"
           }
         ]
       },
@@ -33,7 +33,7 @@
         "max": "1",
         "type": [
           {
-            "code": "BackboneElement"
+            "code": "Reference"
           }
         ]
       },
