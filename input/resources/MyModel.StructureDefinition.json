@@ -22,7 +22,7 @@
         "max": "*",
         "type": [
           {
-            "code": "Element"
+            "code": "Reference"
           }
         ]
       },

@@ -1,6 +1,7 @@
 {
   "ExpandedNodes": [
     "",
+    "\\input",
     "\\input\\CodeSystem",
     "\\input\\cql",
     "\\input\\examples",
@@ -10,6 +11,5 @@
     "\\input\\pagecontent",
     "\\input\\resources"
   ],
-  "SelectedNode": "\\package-list.json",
   "PreviewInSolutionExplorer": false
 }

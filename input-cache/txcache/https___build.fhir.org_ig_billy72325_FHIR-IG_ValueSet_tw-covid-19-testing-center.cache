@@ -1,0 +1,2995 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "https://build.fhir.org/ig/billy72325/FHIR-IG/ValueSet/tw-covid-19-testing-center",
+      "concept" : [{
+        "code" : "1531071030",
+        "display" : "REN AI HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "仁愛醫院"
+        }]
+      },
+      {
+        "code" : "1521031104",
+        "display" : "Kuo General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "郭綜合醫院"
+        }]
+      },
+      {
+        "code" : "1231030015",
+        "display" : "Yonghe Cardinal Tien Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "天主教永和耕莘醫院"
+        }]
+      },
+      {
+        "code" : "0602030026",
+        "display" : "KVGH(Kaohsiung Veterans General Hospital)",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高雄榮民總醫院"
+        }]
+      },
+      {
+        "code" : "1137050019",
+        "display" : "Yuanlin Christian Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "員林基督教醫院"
+        }]
+      },
+      {
+        "code" : "1143040010",
+        "display" : "HENG CHUN CHRISTIAN HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "恆基醫療財團法人恆春基督教醫院"
+        }]
+      },
+      {
+        "code" : "1138010019",
+        "display" : "Nantou Christian Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "彰化基督教醫療財團法人南投基督教醫院"
+        }]
+      },
+      {
+        "code" : "JY05370013",
+        "display" : "Accuspeedy Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "尚捷醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1101160017",
+        "display" : "Cheng-Hsin General Hospital (CHGH)",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "振興醫療財團法人振興醫院"
+        }]
+      },
+      {
+        "code" : "0137170515",
+        "display" : "Changhua Hospital, MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部彰化醫院"
+        }]
+      },
+      {
+        "code" : "0536190011",
+        "display" : "Taichung Armed Forces General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國軍臺中總醫院附設民眾診療服務處"
+        }]
+      },
+      {
+        "code" : "0933050018",
+        "display" : "Ton-Yen General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "東元醫療社團法人東元綜合醫院"
+        }]
+      },
+      {
+        "code" : "1502040021",
+        "display" : "Jiannren Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "健仁醫院"
+        }]
+      },
+      {
+        "code" : "1131110516",
+        "display" : "Sijhih Cathay General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "汐止國泰綜合醫院"
+        }]
+      },
+      {
+        "code" : "1112010519",
+        "display" : "Hsinchu MacKay Memorial Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "台灣基督長老教會馬偕醫療財團法人新竹馬偕紀念醫院"
+        }]
+      },
+      {
+        "code" : "1532040066",
+        "display" : "Yeezen General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "怡仁綜合醫院"
+        }]
+      },
+      {
+        "code" : "1105040016",
+        "display" : "Madou Sin-Lau Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "麻豆新樓醫院"
+        }]
+      },
+      {
+        "code" : "1503290025",
+        "display" : "Lee Women’s Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "茂盛醫院"
+        }]
+      },
+      {
+        "code" : "1136090519",
+        "display" : "Taichung Tzu Chi Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "佛教慈濟醫療財團法人臺中慈濟醫院"
+        }]
+      },
+      {
+        "code" : "1112010528",
+        "display" : "Hsinchu Cathay General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "新竹國泰綜合醫院"
+        }]
+      },
+      {
+        "code" : "1101020027",
+        "display" : "Central Clinic & Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "中心診所醫療財團法人中心綜合醫院"
+        }]
+      },
+      {
+        "code" : "0936050029",
+        "display" : "Kuang Tien General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "光田綜合醫院"
+        }]
+      },
+      {
+        "code" : "0102070020",
+        "display" : "Kaohsiung Municipal Ta-Tung Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高雄市立大同醫院(委託財團法人私立高雄醫學大學附設中和紀念醫院經營)"
+        }]
+      },
+      {
+        "code" : "0938040012",
+        "display" : "CHU SHANG SHOW CHWAN HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "竹山秀傳醫院"
+        }]
+      },
+      {
+        "code" : "0101150010",
+        "display" : "Taipei City Hospital,YangMing branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北市立聯合醫院陽明院區"
+        }]
+      },
+      {
+        "code" : "JY01100122",
+        "display" : "LihPao Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "麗寶醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1536100081",
+        "display" : "CHING-CHYUAN HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "清泉醫院"
+        }]
+      },
+      {
+        "code" : "1507300077",
+        "display" : "Park One International Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "博田國際醫院"
+        }]
+      },
+      {
+        "code" : "1101020018",
+        "display" : "Cathay General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國泰醫療財團法人國泰綜合醫院"
+        }]
+      },
+      {
+        "code" : "JY32070015",
+        "display" : "GeneRock Precision Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "圓鉐醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "JY33100067",
+        "display" : "CurieMed Clinical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "居禮醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "0138030010",
+        "display" : "Tsoutun Psychiatric Center, MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部 草屯療養院"
+        }]
+      },
+      {
+        "code" : "JY01180059",
+        "display" : "Xinglian Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "杏聯醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "0102020011",
+        "display" : "Kaohsiung Municipal United Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高雄市立聯合醫院"
+        }]
+      },
+      {
+        "code" : "1303180011",
+        "display" : "Asia University Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "亞洲大學附屬醫院"
+        }]
+      },
+      {
+        "code" : "0932020034",
+        "display" : "SKMH",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "新國民醫療社團法人新國民醫院"
+        }]
+      },
+      {
+        "code" : "1134020019",
+        "display" : "Lotung Poh-Ai Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "醫療財團法人羅許基金會羅東博愛醫院"
+        }]
+      },
+      {
+        "code" : "0140010028",
+        "display" : "Ministry of Health and Welfare Puzi Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部朴子醫院"
+        }]
+      },
+      {
+        "code" : "1331160010",
+        "display" : "Fu Jen Catholic University Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "天主教輔仁大學附設醫院"
+        }]
+      },
+      {
+        "code" : "1146010032",
+        "display" : "Taitung Christian Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "東基醫療財團法人台東基督教醫院"
+        }]
+      },
+      {
+        "code" : "0502080015",
+        "display" : "KAFGH",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國軍高雄總醫院"
+        }]
+      },
+      {
+        "code" : "JY31040040",
+        "display" : "SL-LAB",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "新隆醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1231050017B",
+        "display" : "CTH AK Branch Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "耕莘醫院安康院區"
+        }]
+      },
+      {
+        "code" : "0121050011",
+        "display" : "Tainan Hospital, MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部臺南醫院"
+        }]
+      },
+      {
+        "code" : "0905320023",
+        "display" : "Tainan Municipal Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "台南市立醫院(委託秀傳醫療社團法人經營)"
+        }]
+      },
+      {
+        "code" : "9441010045",
+        "display" : "Modern Clinical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "現代醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1503200012",
+        "display" : "WU FENG CHENG CHING HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "霧峰澄清醫院"
+        }]
+      },
+      {
+        "code" : "1503260018",
+        "display" : "Tai-An Hospital Shuang Shi Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺安醫院雙十分院"
+        }]
+      },
+      {
+        "code" : "1133060019",
+        "display" : "Catholic Mercy Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "天主教仁慈醫療財團法人仁慈醫院"
+        }]
+      },
+      {
+        "code" : "7801180251",
+        "display" : "School of Veterinary Medicine NTU",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國立臺灣大學獸醫專業學院"
+        }]
+      },
+      {
+        "code" : "1305370013",
+        "display" : "TAINAN MUNICIPAL AN-NAN HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺南市立安南醫院"
+        }]
+      },
+      {
+        "code" : "1522011115",
+        "display" : "YangMing Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "陽明醫院"
+        }]
+      },
+      {
+        "code" : "9402050176",
+        "display" : "Lezen Reference Laboratory Center",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "立人醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1122010021",
+        "display" : "St. Martin De Porres Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "天主教聖馬爾定醫院"
+        }]
+      },
+      {
+        "code" : "1141310019",
+        "display" : "Chi Mei Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "奇美醫療財團法人奇美醫院"
+        }]
+      },
+      {
+        "code" : "9432021441",
+        "display" : "Yea Dong Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "亞東醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "0421040011",
+        "display" : "National Cheng Kung University Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國立成功大學醫學院附設醫院"
+        }]
+      },
+      {
+        "code" : "0131060010",
+        "display" : "Lo-sheng Sanatorium and Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部樂生療養院"
+        }]
+      },
+      {
+        "code" : "0136010010",
+        "display" : "Feng Yuan Hospital,MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部豐原醫院"
+        }]
+      },
+      {
+        "code" : "7832070173",
+        "display" : "RCEVI, Chang Gung University",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "長庚大學新興病毒感染研究中心"
+        }]
+      },
+      {
+        "code" : "0922020022",
+        "display" : "Ching Sheng Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "慶昇醫療社團法人慶昇醫院"
+        }]
+      },
+      {
+        "code" : "1140010510",
+        "display" : "Chiayi Chang Gung memorial hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "嘉義長庚紀念醫院"
+        }]
+      },
+      {
+        "code" : "9431061656",
+        "display" : "Super laboratory medical lab",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "台美醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1137010024",
+        "display" : "Changhua Christian Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "彰化基督教醫院"
+        }]
+      },
+      {
+        "code" : "JY03270038",
+        "display" : "Ruei Fu Shi Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "芮弗士醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "0902080013",
+        "display" : "YUANˋS GENERAL HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "阮綜合醫療社團法人阮綜合醫院"
+        }]
+      },
+      {
+        "code" : "1131130018",
+        "display" : "New Taipei Municipal TuCheng Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "新北市立土城醫院"
+        }]
+      },
+      {
+        "code" : "1134010022",
+        "display" : "Yilan Jenai Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "宜蘭仁愛醫療財團法人宜蘭仁愛醫院"
+        }]
+      },
+      {
+        "code" : "1132070011",
+        "display" : "Lin-Kou Chang Gung Memorial Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "林口長庚紀念醫院"
+        }]
+      },
+      {
+        "code" : "1135050020",
+        "display" : "WEI GONG MEMORIAL HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "為恭醫療財團法人為恭紀念醫院"
+        }]
+      },
+      {
+        "code" : "JY01180095",
+        "display" : "UJ Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "詠捷醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1101010021",
+        "display" : "Taiwan Adventist Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "基督復臨安息日會醫療財團法人臺安醫院"
+        }]
+      },
+      {
+        "code" : "1131090019",
+        "display" : "En Chu Kong Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "行天宮醫療志業醫療財團法人恩主公醫院"
+        }]
+      },
+      {
+        "code" : "1317050017",
+        "display" : "China Medical University Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "中國醫藥大學附設醫院"
+        }]
+      },
+      {
+        "code" : "0943010017",
+        "display" : "PAOCHIEN HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "寶建醫療社團法人寶建醫院"
+        }]
+      },
+      {
+        "code" : "0401020013",
+        "display" : "National Taiwan University Cancer Center (NTUCC)",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國立臺灣大學醫學院附設醫院癌醫中心分院"
+        }]
+      },
+      {
+        "code" : "JY01020147",
+        "display" : "UCL, Union Clinical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "大安聯合醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1517061032",
+        "display" : "CHENG CHING HOSPITAL CHUNG KANG BRANCH",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "澄清綜合醫院中港分院"
+        }]
+      },
+      {
+        "code" : "0431270012",
+        "display" : "NTUHJSB",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國立臺灣大學醫學院附設醫院金山分院"
+        }]
+      },
+      {
+        "code" : "0938030016",
+        "display" : "Yumin Medical Corporation Yumin Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "佑民醫療社團法人佑民醫院"
+        }]
+      },
+      {
+        "code" : "1343030018",
+        "display" : "Fooyin University Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "輔英科技大學附設醫院"
+        }]
+      },
+      {
+        "code" : "0643130018",
+        "display" : "KVGH,Pingtung Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高雄榮民總醫院 屏東分院"
+        }]
+      },
+      {
+        "code" : "JY31040077",
+        "display" : "Taiwan Iou Piin Biomedical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "台灣優品醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1137080017",
+        "display" : "Erlin Christian Hospital Laboratory Section",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "二林基督教醫院檢驗課"
+        }]
+      },
+      {
+        "code" : "JY07340013",
+        "display" : "UCLKS",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "聯興醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "JY01010089",
+        "display" : "Lezen Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "立人醫事檢驗所(台北)"
+        }]
+      },
+      {
+        "code" : "1146030516",
+        "display" : "Kuanshan Tzu Chi Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "關山慈濟醫院"
+        }]
+      },
+      {
+        "code" : "1139040011",
+        "display" : "Yunlin Christian Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "彰化基督教醫療財團法人雲林基督教醫院"
+        }]
+      },
+      {
+        "code" : "JY32010091",
+        "display" : "Jhong-Hou Clinical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "中厚醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "3505350553",
+        "display" : "Chun Jing Gao Duan Clinic",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "純淨高端診所"
+        }]
+      },
+      {
+        "code" : "0943030019",
+        "display" : "Antai Medical Care Corporation Antai Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "安泰醫療社團法人安泰醫院"
+        }]
+      },
+      {
+        "code" : "0532090029",
+        "display" : "Taoyuan Armed Forces General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國軍桃園總醫院"
+        }]
+      },
+      {
+        "code" : "0412040012",
+        "display" : "NTUH Hsin-Chu Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "新竹臺大分院新竹醫院"
+        }]
+      },
+      {
+        "code" : "1503190020",
+        "display" : "EVERAN HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "長安醫院"
+        }]
+      },
+      {
+        "code" : "1122010012",
+        "display" : "Chia-Yi Christian Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "嘉義基督教醫院"
+        }]
+      },
+      {
+        "code" : "0617060018",
+        "display" : "TCVGH",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺中榮民總醫院"
+        }]
+      },
+      {
+        "code" : "1143010012",
+        "display" : "Pingtung Christian Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "屏基醫療財團法人屏東基督教醫院"
+        }]
+      },
+      {
+        "code" : "1317040011",
+        "display" : "CSMUH",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "中山醫學大學附設醫院"
+        }]
+      },
+      {
+        "code" : "0942020019",
+        "display" : "Kaohsiung Municipal Gangshan Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高雄市立岡山醫院(委託秀傳醫療社團法人經營)"
+        }]
+      },
+      {
+        "code" : "0145010019",
+        "display" : "Hualien Hospital, MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部花蓮醫院"
+        }]
+      },
+      {
+        "code" : "1107350015",
+        "display" : "St. Joseph Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高雄聖功醫院"
+        }]
+      },
+      {
+        "code" : "1502020065",
+        "display" : "JHENG DA HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "正大醫院"
+        }]
+      },
+      {
+        "code" : "0901020013",
+        "display" : "Chung Shan Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "中山醫療社團法人中山醫院"
+        }]
+      },
+      {
+        "code" : "1101160026",
+        "display" : "Koo Foundation Sun Yat-Sen Cancer Center",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "醫療財團法人辜公亮基金會和信治癌中心醫院"
+        }]
+      },
+      {
+        "code" : "4233050518",
+        "display" : "Hsinchu Blood Center",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "新竹捐血中心"
+        }]
+      },
+      {
+        "code" : "0936030018",
+        "display" : "Lee's medical Coporation Dajia Lee's Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "李綜合醫療社團法人大甲李綜合醫院"
+        }]
+      },
+      {
+        "code" : "JY31110047",
+        "display" : "iKnowledge-Care Molecular Diagnostics Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "知愛分子醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "0143010011",
+        "display" : "Pingtung General Hospital, MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部屏東醫院"
+        }]
+      },
+      {
+        "code" : "1105050012",
+        "display" : "Chi Mei Hospital ,Chiali",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "奇美醫療財團法人佳里奇美醫院"
+        }]
+      },
+      {
+        "code" : "0936060016",
+        "display" : "Tungs' Taichung MetroHarbor Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "童綜合醫療社團法人童綜合醫院"
+        }]
+      },
+      {
+        "code" : "0901190010",
+        "display" : "WESTGARDEN HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "西園醫療社團法人西園醫院"
+        }]
+      },
+      {
+        "code" : "0937010019",
+        "display" : "SHOW-CHWAN MEMORIAL HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "秀傳醫療社團法人秀傳紀念醫院"
+        }]
+      },
+      {
+        "code" : "1302050014",
+        "display" : "Kaohsiung Medical University Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高雄醫學大學附設中和紀念醫院"
+        }]
+      },
+      {
+        "code" : "1535010051",
+        "display" : "DACHIEN GENERAL HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "大千綜合醫院"
+        }]
+      },
+      {
+        "code" : "0542020011",
+        "display" : "Armed Forces Hospital Gangshan Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國軍高雄總醫院岡山分院"
+        }]
+      },
+      {
+        "code" : "9422010383",
+        "display" : "Yow-Jian Medical Room Examination Center",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "祐健醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "JY05350020",
+        "display" : "New South Ocean Clinical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "新南海醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "0141060513",
+        "display" : "Tainan Hospital of Xinhua, MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部臺南醫院新化分院"
+        }]
+      },
+      {
+        "code" : "1137020511",
+        "display" : "Chang Bing Show Chwan Memorial Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "秀傳醫療財團法人彰濱秀傳紀念醫院"
+        }]
+      },
+      {
+        "code" : "9801120024",
+        "display" : "ID Core, Academia Sinica",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "中(央)研(究)院感染性疾病核心設施"
+        }]
+      },
+      {
+        "code" : "1138020015",
+        "display" : "Puli christian hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "埔基醫療財團法人埔里基督教醫院"
+        }]
+      },
+      {
+        "code" : "1139030015",
+        "display" : "St.Joseph's Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "天主教若瑟醫療財團法人若瑟醫院"
+        }]
+      },
+      {
+        "code" : "1411030013",
+        "display" : "TAIWAN MINERS GENERAL HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "醫療財團法人臺灣區煤礦業基金會臺灣礦工醫院"
+        }]
+      },
+      {
+        "code" : "1532100049",
+        "display" : "Landseed International Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "聯新國際醫院"
+        }]
+      },
+      {
+        "code" : "1142100017",
+        "display" : "Kaohsiung Chang Gung Memorial Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "長庚醫療財團法人高雄長庚紀念醫院"
+        }]
+      },
+      {
+        "code" : "0434010518",
+        "display" : "NYCU Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "陽明交通大學附設醫院"
+        }]
+      },
+      {
+        "code" : "1111060015",
+        "display" : "Keelung Chang Gung Memorial Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "基隆長庚醫院"
+        }]
+      },
+      {
+        "code" : "1134020028",
+        "display" : "Camillian Saint Mary’s Hospital Luodong",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "天主教靈醫會醫療財團法人羅東聖母醫院"
+        }]
+      },
+      {
+        "code" : "0633030010",
+        "display" : "Taipei Veterans General Hosp.,Hsinchu Br.",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北榮民總醫院新竹分院"
+        }]
+      },
+      {
+        "code" : "1121010018",
+        "display" : "Tainan Sin-Lau Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "台灣基督長老教會新樓醫療財團法人台南新樓醫院"
+        }]
+      },
+      {
+        "code" : "JY32060019",
+        "display" : "SBC Medical Lab",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "福又達醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1102110011",
+        "display" : "Kaohsiung Municipal Siaogang Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高雄市立小港醫院"
+        }]
+      },
+      {
+        "code" : "1142120001",
+        "display" : "E-DA HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "義大醫療財團法人義大醫院"
+        }]
+      },
+      {
+        "code" : "1131100010",
+        "display" : "MacKay Memorial Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "台灣基督長老教會馬偕醫療財團法人淡水馬偕紀念醫院"
+        }]
+      },
+      {
+        "code" : "0143040019",
+        "display" : "Heng-Chun Tourism Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利恆春旅遊醫院"
+        }]
+      },
+      {
+        "code" : "0634070018",
+        "display" : "Yuanshan Branch, Taipei VGH",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北榮民總醫院員山分院"
+        }]
+      },
+      {
+        "code" : "0634030014",
+        "display" : "Su-ao Branch, Taipei VGH",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北榮民總醫院蘇澳分院"
+        }]
+      },
+      {
+        "code" : "0190030516",
+        "display" : "Kinmen Hospital, MOHW, Taiwan",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部金門醫院"
+        }]
+      },
+      {
+        "code" : "JY01020110",
+        "display" : "Superlatives Clinical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高端醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "9A05320015",
+        "display" : "Public Health Bureau of Tainan City Government",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺南市政府衛生局"
+        }]
+      },
+      {
+        "code" : "0501110514",
+        "display" : "Tri-Service General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "三軍總醫院"
+        }]
+      },
+      {
+        "code" : "1301170017",
+        "display" : "Taipei Medical University Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北醫學大學附設醫院"
+        }]
+      },
+      {
+        "code" : "0943160012",
+        "display" : "FANGLIAO GENERAL HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "枋寮醫療社團法人枋寮醫院"
+        }]
+      },
+      {
+        "code" : "0101090517C",
+        "display" : "Taipei City Hospital RenAi Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北市立聯合醫院仁愛院區"
+        }]
+      },
+      {
+        "code" : "0545040515",
+        "display" : "Hualien Armed Forces General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國軍花蓮總醫院"
+        }]
+      },
+      {
+        "code" : "1543010109",
+        "display" : "Golden Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國仁醫院"
+        }]
+      },
+      {
+        "code" : "1231050017",
+        "display" : "Cardinal Tien Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "天主教耕莘醫療財團法人耕莘醫院"
+        }]
+      },
+      {
+        "code" : "1532011154",
+        "display" : "MIN-SHENG GENERAL HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "敏盛綜合醫院"
+        }]
+      },
+      {
+        "code" : "0146010013",
+        "display" : "Taitung Hospital,MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部臺東醫院"
+        }]
+      },
+      {
+        "code" : "1140030012",
+        "display" : "Dalin Tzu Chi Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "大林慈濟醫院"
+        }]
+      },
+      {
+        "code" : "1542050056",
+        "display" : "CHIEN-YU HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "建佑醫院"
+        }]
+      },
+      {
+        "code" : "0122020517",
+        "display" : "Chia-Yi Hospital Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部嘉義醫院"
+        }]
+      },
+      {
+        "code" : "0132010014",
+        "display" : "Taoyuan Hospital, Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部桃園醫院"
+        }]
+      },
+      {
+        "code" : "1145010038",
+        "display" : "MCH",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺灣基督教門諾會醫療財團法人門諾醫院"
+        }]
+      },
+      {
+        "code" : "0401180014",
+        "display" : "National Taiwan University Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國立臺灣大學醫學院附設醫院"
+        }]
+      },
+      {
+        "code" : "1502081175",
+        "display" : "Chiu General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "邱外科醫院"
+        }]
+      },
+      {
+        "code" : "0502030015",
+        "display" : "Kaohsiung Armed Forces General H. Zuoying Br",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國軍高雄總醫院左營分院"
+        }]
+      },
+      {
+        "code" : "1131050515",
+        "display" : "Taipei Tzu Chi Hospital，Buddhist Tzu Chi Medical Foundation",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "佛教慈濟醫療財團法人台北慈濟醫院"
+        }]
+      },
+      {
+        "code" : "0632010014",
+        "display" : "Taipei V.G.H. Taoyuan Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北榮民總醫院桃園分院"
+        }]
+      },
+      {
+        "code" : "1502041117",
+        "display" : "YOU CHANG UNITED HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "右昌聯合醫院"
+        }]
+      },
+      {
+        "code" : "1132010024",
+        "display" : "Saint Paul's Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "沙爾德聖保祿修女會醫療財團法人聖保祿醫院"
+        }]
+      },
+      {
+        "code" : "0501010019",
+        "display" : "Tri-Service General Hospital Songshan Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "三軍總醫院松山分院"
+        }]
+      },
+      {
+        "code" : "1537051292",
+        "display" : "Yuan Sheng Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "員生醫院"
+        }]
+      },
+      {
+        "code" : "0937050014",
+        "display" : "Yuan Rung Medical Aggregate Co. Yuan Rung Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "員榮醫療社團法人員榮醫院"
+        }]
+      },
+      {
+        "code" : "0935020027",
+        "display" : "Yuanli Lee’s General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "李綜合醫療社團法人苑裡李綜合醫院"
+        }]
+      },
+      {
+        "code" : "0943040015",
+        "display" : "Nan Men Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "南門醫療社團法人南門醫院"
+        }]
+      },
+      {
+        "code" : "0135010016",
+        "display" : "Ministry of Health and welfare Miaoli Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部苗栗醫院"
+        }]
+      },
+      {
+        "code" : "0645030011",
+        "display" : "Taipei Veterans General Hospital Yuli Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北榮民總醫院玉里分院"
+        }]
+      },
+      {
+        "code" : "0101090517D",
+        "display" : "Taipei city hospital zhongxiao branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北市立聯合醫院忠孝院區"
+        }]
+      },
+      {
+        "code" : "1531010279",
+        "display" : "PAN CHIAO CHUNG HSING HOSPITAL LABORATORY",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "板橋中興醫院"
+        }]
+      },
+      {
+        "code" : "1331040513",
+        "display" : "Shuang Ho Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部雙和醫院"
+        }]
+      },
+      {
+        "code" : "1131010011",
+        "display" : "Far Eastern Memorial Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "亞東紀念醫院"
+        }]
+      },
+      {
+        "code" : "0131060029",
+        "display" : "Taipei Hospital, Ministry of Health and Welfare",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部臺北醫院"
+        }]
+      },
+      {
+        "code" : "1101150011",
+        "display" : "SHIN KONG WU HO-SU MEMORIAL HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "新光醫療財團法人新光吳火獅紀念醫院"
+        }]
+      },
+      {
+        "code" : "JY01180077",
+        "display" : "Sofiva Medical Lab",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "慧智醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1536060037",
+        "display" : "Mimder Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "明德醫院"
+        }]
+      },
+      {
+        "code" : "0131020016",
+        "display" : "New Taipei City Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "新北市立聯合醫院"
+        }]
+      },
+      {
+        "code" : "0439010527",
+        "display" : "NCKUH Dou-Liou Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國立成功大學醫學院附設醫院斗六分院"
+        }]
+      },
+      {
+        "code" : "1537040066",
+        "display" : "Cho Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "卓醫院"
+        }]
+      },
+      {
+        "code" : "0903150014",
+        "display" : "Wuri Lin Shin Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "林新醫療社團法人烏日林新醫院"
+        }]
+      },
+      {
+        "code" : "0102080017",
+        "display" : "Kaohsiung Municipal Min Sheng Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高雄市立民生醫院"
+        }]
+      },
+      {
+        "code" : "0145030020",
+        "display" : "Yuli Hospital Ministry of Health and welfare",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部玉里醫院"
+        }]
+      },
+      {
+        "code" : "0517050010",
+        "display" : "Taichung Armed Forces General H. Zhongqing Br",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國軍臺中總醫院中清分院"
+        }]
+      },
+      {
+        "code" : "0645020015",
+        "display" : "TVGH Fenglin Branch Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "台北榮民總醫院鳳林分院"
+        }]
+      },
+      {
+        "code" : "1141090512",
+        "display" : "Chi Mei Hospital, Liouying",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "柳營奇美醫院"
+        }]
+      },
+      {
+        "code" : "0641310018",
+        "display" : "KSVGH, Tainan Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高雄榮民總醫院臺南分院"
+        }]
+      },
+      {
+        "code" : "0646010013",
+        "display" : "Taipei Veterans General Hospital Taitung Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北榮民總醫院臺東分院"
+        }]
+      },
+      {
+        "code" : "1339060017",
+        "display" : "C.M.U Beigang Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "中國醫藥大學北港附設醫院"
+        }]
+      },
+      {
+        "code" : "0101090517G",
+        "display" : "TPECH-Heping Branch Laboratory Department",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北市立聯合醫院和平婦幼院區"
+        }]
+      },
+      {
+        "code" : "0439010518",
+        "display" : "Ｎational Taiwan Univ Hosp Yunlin Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國立臺灣大學醫學院附設醫院雲林分院"
+        }]
+      },
+      {
+        "code" : "0701160518",
+        "display" : "Taipei Municipal Gan-Dau Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北市立關渡醫院"
+        }]
+      },
+      {
+        "code" : "1137020520",
+        "display" : "Lukang Christian hospital Lab. section",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "彰化基督教醫療財團法人鹿港基督醫院"
+        }]
+      },
+      {
+        "code" : "1301200010",
+        "display" : "Taipei Municipal Wanfang Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北市立萬芳醫院"
+        }]
+      },
+      {
+        "code" : "1145030012",
+        "display" : "Buddhist Tzu Chi Yuli Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "佛教慈濟醫療財團法人玉里慈濟醫院"
+        }]
+      },
+      {
+        "code" : "0141010013",
+        "display" : "Welfare Singing Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部新營醫院"
+        }]
+      },
+      {
+        "code" : "0917070029",
+        "display" : "Lin Shin Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "林新醫院"
+        }]
+      },
+      {
+        "code" : "0640140012",
+        "display" : "Wanqiao Branch, TCVGH",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺中榮總灣橋分院"
+        }]
+      },
+      {
+        "code" : "1142010518",
+        "display" : "KAOHSIUNG MUNICIPAL FENG-SHAN HOSPITAL",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "高雄市立鳳山醫院"
+        }]
+      },
+      {
+        "code" : "0511040010",
+        "display" : "Tri-Service General Hospital KeeLung Br.",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "三軍總醫院基隆分院附設民眾診療服務處"
+        }]
+      },
+      {
+        "code" : "0141270019",
+        "display" : "Chest Hospital, MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部胸腔病院"
+        }]
+      },
+      {
+        "code" : "1146010014",
+        "display" : "Taitung MacKay Memorial Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "台東馬偕紀念醫院"
+        }]
+      },
+      {
+        "code" : "0638020014",
+        "display" : "Puli Branch，TCVGH",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺中榮民總醫院埔里分院"
+        }]
+      },
+      {
+        "code" : "0111070010",
+        "display" : "Keelung Hospital, Ministry of Health and Welfare",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部基隆醫院"
+        }]
+      },
+      {
+        "code" : "0937050024",
+        "display" : "Hongren Hospital OF THE H.L.M.C.",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "惠來醫療社團法人宏仁醫院"
+        }]
+      },
+      {
+        "code" : "0622020017",
+        "display" : "Chiayi & Wanqiao Branch, VGHTC",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺中榮民總醫院嘉義分院"
+        }]
+      },
+      {
+        "code" : "0101090517A",
+        "display" : "TPECH Zhongxing Branch Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北市立聯合醫院中興院區"
+        }]
+      },
+      {
+        "code" : "1145010010",
+        "display" : "Hualien Tzu Chi Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "佛教慈濟醫療財團法人花蓮慈濟醫院"
+        }]
+      },
+      {
+        "code" : "3501114122",
+        "display" : "My lux vitae clinic",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "陽光活力診所"
+        }]
+      },
+      {
+        "code" : "1333050017",
+        "display" : "China Medical University Hsinchu Hospital, Taiwan.",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "中國醫藥大學新竹附設醫院"
+        }]
+      },
+      {
+        "code" : "0138010027",
+        "display" : "M.H.O.W Nantou Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部南投醫院"
+        }]
+      },
+      {
+        "code" : "0117030010",
+        "display" : "Taichung Hospital, MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部臺中醫院"
+        }]
+      },
+      {
+        "code" : "0512040014",
+        "display" : "Hsinchu Armed Forces General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國軍桃園總醫院新竹分院"
+        }]
+      },
+      {
+        "code" : "0144010015",
+        "display" : "Laboratory Department, PH, MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部澎湖醫院"
+        }]
+      },
+      {
+        "code" : "1136200015",
+        "display" : "Jen-Ai Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "仁愛醫療財團法人 大里仁愛醫院"
+        }]
+      },
+      {
+        "code" : "0142030019",
+        "display" : "Cishan Hospital, MOHW",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "衛生福利部旗山醫院"
+        }]
+      },
+      {
+        "code" : "3501113929",
+        "display" : "Dianthus MFM Clinic-Minquan",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "禾馨民權婦幼診所"
+        }]
+      },
+      {
+        "code" : "0544010031",
+        "display" : "Tri-Service General Hospital Penghu Br.",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "三軍總醫院澎湖分院"
+        }]
+      },
+      {
+        "code" : "9431011996",
+        "display" : "Chung-Yi Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "中一醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1532040039",
+        "display" : "TEN-CHEN Hospital (Yang-Mei) (Chung-Li)",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "天成醫院"
+        }]
+      },
+      {
+        "code" : "0932020025",
+        "display" : "TEN-CHEN Hospital (Chung-Li)",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "天成醫療社團法人天晟醫院"
+        }]
+      },
+      {
+        "code" : "3532018128",
+        "display" : "Dianthus MFM Clinic-Taoyuan",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "禾馨桃園婦幼診所"
+        }]
+      },
+      {
+        "code" : "350102B364",
+        "display" : "Dianthus MFM Clinic-Shinsheng",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "禾馨新生婦幼診所"
+        }]
+      },
+      {
+        "code" : "JY05320022",
+        "display" : "Xiangyang Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "向陽醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1139130010",
+        "display" : "Yunlin Chang Gung Memorial Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "長庚醫療財團法人雲林長庚紀念醫院"
+        }]
+      },
+      {
+        "code" : "6201125060",
+        "display" : "Taiwan FDA Lab.",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "食品藥物管理署"
+        }]
+      },
+      {
+        "code" : "9801181045",
+        "display" : "Tawain CDC, Kun-Yang Lab.",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "疾病管制署昆陽實驗室"
+        }]
+      },
+      {
+        "code" : "9102030589",
+        "display" : "Tawain CDC, Southern Lab.",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "疾病管制署南區實驗室"
+        }]
+      },
+      {
+        "code" : "9117070513",
+        "display" : "Tawain CDC, Centeral Lab.",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "疾病管制署中區實驗室"
+        }]
+      },
+      {
+        "code" : "JY01020174",
+        "display" : "Jiananlian Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "健安聯醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "0291010010",
+        "display" : "Lienchiang County Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "連江縣立醫院"
+        }]
+      },
+      {
+        "code" : "2346110014",
+        "display" : "Lütao Township Health Center",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "綠島鄉衛生所"
+        }]
+      },
+      {
+        "code" : "0601160016",
+        "display" : "Taipei Veterans General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "臺北榮民總醫院"
+        }]
+      },
+      {
+        "code" : "JY01180086",
+        "display" : "Sofiva Genomics Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "慧智基因醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "1517011112",
+        "display" : "CHENG CHING HOSPITAL,",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "澄清醫院平等院區"
+        }]
+      },
+      {
+        "code" : "1536190076",
+        "display" : "Cender Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "賢德醫院"
+        }]
+      },
+      {
+        "code" : "JY02050032",
+        "display" : "Youpin Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "優品醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "2346160014",
+        "display" : "Lanyu Township Health Center",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "蘭嶼鄉衛生所"
+        }]
+      },
+      {
+        "code" : "0433050018",
+        "display" : "NTU BioMedical Park Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "新竹臺大分院生醫醫院"
+        }]
+      },
+      {
+        "code" : "1101100011",
+        "display" : "Taipei MacKay Memorial Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "台灣基督長老教會馬偕醫療財團法人馬偕紀念醫院"
+        }]
+      },
+      {
+        "code" : "0401190010",
+        "display" : "National Taiwan Univ Hosp Bei-Hu Branch",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國立臺灣大學醫學院附設醫院北護分院"
+        }]
+      },
+      {
+        "code" : "1101010012",
+        "display" : "Taipei Chang Gung Memorial Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "長庚醫療財團法人台北長庚紀念醫院"
+        }]
+      },
+      {
+        "code" : "JY31030035",
+        "display" : "NEWCL Biomedical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "欣奕醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "JY07300082",
+        "display" : "Harumi Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "晴美醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "0543010019",
+        "display" : "Kaohsiung Armed Forces General H. Pingtung Br",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "國軍高雄總醫院屏東分院附設民眾診療服務處"
+        }]
+      },
+      {
+        "code" : "JY46010018",
+        "display" : "GeneWellness Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "健曜醫事檢驗所"
+        }]
+      },
+      {
+        "code" : "JY90010037",
+        "display" : "Modern Clinical Laboratory (Kinmen)",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "現代醫事檢驗所(金門縣)"
+        }]
+      },
+      {
+        "code" : "1532021338",
+        "display" : "Evergreen General Hospital",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "中壢長榮醫院"
+        }]
+      },
+      {
+        "code" : "9412041269",
+        "display" : "Cambridge Medical Laboratory",
+        "designation" : [{
+          "language" : "zh",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000003001"
+          },
+          "value" : "劍橋醫事檢驗所"
+        }]
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system https://build.fhir.org/ig/billy72325/FHIR-IG/ValueSet/tw-covid-19-testing-center"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://build.fhir.org/ig/billy72325/FHIR-IG/ValueSet/tw-covid-19-testing-center", "version": "1.0.1"}####
+e: {
+  "error" : "Error from server: Attempt to reference https://build.fhir.org/ig/billy72325/FHIR-IG/ValueSet/tw-covid-19-testing-center as a CodeSystem when it's a ValueSet"
+}
+-------------------------------------------------------------------------------------
