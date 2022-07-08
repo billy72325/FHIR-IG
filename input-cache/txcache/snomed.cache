@@ -19,3 +19,23 @@ v: {
   "system" : "http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "387713003"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Surgical procedure (procedure)",
+  "code" : "387713003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "108290001"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Radiation oncology AND/OR radiotherapy",
+  "code" : "108290001",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------

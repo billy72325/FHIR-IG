@@ -5,7 +5,7 @@
 <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-  <url value="http://standard-interoperability-lab.com/"/>
+  <url value="http://standard-interoperability-lab.com/fhir/"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="1.0.1"/>
   <name value="Taiwan NHIRD FHIR IG"/>
@@ -17,7 +17,7 @@
     <telecom>
       <!-- Or whatever URL and/or email address(es) are appropriate -->
       <system value="url"/>
-      <value value="http://standard-interoperability-lab.com/"/>
+      <value value="http://standard-interoperability-lab.com/fhir/"/>
     </telecom>
   </contact>
   <description value="An mCode compliant Taiwan NHIRD FHIR IG"/>
