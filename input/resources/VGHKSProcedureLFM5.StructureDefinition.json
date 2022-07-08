@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSProcedureLFM5",
+  "url": "http://www.medinfo.org.tw/StructureDefinition/VGHKSProcedureLFM5",
   "name": "VGHKSProcedureLFM5",
   "title": "VGHKS Procedure LF M5 Profile",
   "status": "draft",
