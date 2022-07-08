@@ -1,0 +1,78 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioEBRT",
+  "name": "VGHKSExtensionRadioEBRT",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Procedure"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:EBRT",
+        "path": "Extension.extension",
+        "sliceName": "EBRT",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:EBRT.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "EBRT"
+      },
+      {
+        "id": "Extension.extension:EBRT.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:EBRT.value[x].coding.code",
+        "path": "Extension.extension.value[x].coding.code",
+        "short": "LF.ebrt",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:EBRT.value[x].text",
+        "path": "Extension.extension.value[x].text",
+        "short": "體外放射治療技術",
+        "min": 1
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioEBRT"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

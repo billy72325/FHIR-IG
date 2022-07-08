@@ -1,0 +1,79 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioORTTech",
+  "name": "VGHKSExtensionRadioORTTech",
+  "status": "draft",
+  "description": "此Extension用於其他放射治療技術",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Procedure"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:ORTTechnique",
+        "path": "Extension.extension",
+        "sliceName": "ORTTechnique",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:ORTTechnique.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "ORTTechnique"
+      },
+      {
+        "id": "Extension.extension:ORTTechnique.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:ORTTechnique.value[x].coding.code",
+        "path": "Extension.extension.value[x].coding.code",
+        "short": "LF.ort_tech",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:ORTTechnique.value[x].text",
+        "path": "Extension.extension.value[x].text",
+        "short": "其他放射治療技術",
+        "min": 1
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioORTTech"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

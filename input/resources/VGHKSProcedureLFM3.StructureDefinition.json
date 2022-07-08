@@ -1,0 +1,82 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSProcedureLFM3",
+  "name": "VGHKSProcedureLFM3",
+  "title": "VGHKS Procedure LF M3 Profile",
+  "status": "draft",
+  "description": "此profiles用於免疫治療(LFm3)",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.code",
+        "path": "Procedure.code",
+        "min": 1
+      },
+      {
+        "id": "Procedure.code.coding",
+        "path": "Procedure.code.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Procedure.code.coding.code",
+        "path": "Procedure.code.coding.code",
+        "short": "LF.immu_h",
+        "min": 1
+      },
+      {
+        "id": "Procedure.code.text",
+        "path": "Procedure.code.text",
+        "short": "申報醫院免疫治療",
+        "min": 1
+      },
+      {
+        "id": "Procedure.subject.reference",
+        "path": "Procedure.subject.reference",
+        "short": "患者 Resource Link",
+        "min": 1
+      },
+      {
+        "id": "Procedure.performed[x]",
+        "path": "Procedure.performed[x]",
+        "short": "申報醫院免疫治療開始日期",
+        "definition": "Estimated or actual date, date-time, period, or age when the procedure was performed.  Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.\r\n請使用performedDateTime\r\n對應代號(LF.dimmu)",
+        "min": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.reasonCode",
+        "path": "Procedure.reasonCode",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Procedure.reasonCode.coding.code",
+        "path": "Procedure.reasonCode.coding.code",
+        "short": "LF.immu_o",
+        "min": 1
+      },
+      {
+        "id": "Procedure.reasonCode.text",
+        "path": "Procedure.reasonCode.text",
+        "short": "外院免疫治療",
+        "min": 1
+      },
+      {
+        "id": "Procedure.bodySite",
+        "path": "Procedure.bodySite",
+        "max": "0"
+      }
+    ]
+  }
+}

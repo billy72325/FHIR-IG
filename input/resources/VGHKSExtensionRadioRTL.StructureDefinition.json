@@ -1,0 +1,133 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioRTL",
+  "name": "VGHKSExtensionRadioRTL",
+  "status": "draft",
+  "description": "此Extension用於較低放射劑量臨床標靶體積/較低放射劑量臨床標靶體積劑量/較低放射劑量臨床標靶體積治療次數",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Procedure"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:RTL",
+        "path": "Extension.extension",
+        "sliceName": "RTL",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:RTL.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "RTL"
+      },
+      {
+        "id": "Extension.extension:RTL.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:RTL.value[x].reference",
+        "path": "Extension.extension.value[x].reference",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:RTL.value[x].display",
+        "path": "Extension.extension.value[x].display",
+        "short": "較低放射劑量臨床標靶體積",
+        "definition": "Plain text narrative that identifies the resource in addition to the resource reference.\r\n對應代號：LF.rtl",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:RTLDose",
+        "path": "Extension.extension",
+        "sliceName": "RTLDose",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:RTLDose.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "RTLDose"
+      },
+      {
+        "id": "Extension.extension:RTLDose.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:RTLDose.value[x].value",
+        "path": "Extension.extension.value[x].value",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:RTLDose.value[x].system",
+        "path": "Extension.extension.value[x].system",
+        "short": "較低放射劑量臨床標靶體積劑量",
+        "definition": "The identification of the system that provides the coded form of the unit.\r\n對應代號：LF.rtl_dose",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:RTLNF",
+        "path": "Extension.extension",
+        "sliceName": "RTLNF",
+        "min": 0
+      },
+      {
+        "id": "Extension.extension:RTLNF.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "RTLNF"
+      },
+      {
+        "id": "Extension.extension:RTLNF.value[x]",
+        "path": "Extension.extension.value[x]",
+        "short": "較低放射劑量臨床標靶體積治療次數",
+        "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).\r\n對應代號：LF.rtl_nf",
+        "type": [
+          {
+            "code": "unsignedInt"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioRTL"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

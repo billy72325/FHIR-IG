@@ -1,0 +1,63 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "VGHKS-Procedure-LF-M7",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSProcedureLFM7",
+  "name": "VGHKSProcedureLFM7",
+  "title": "VGHKS Procedure LF M7 Profile",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.status",
+        "path": "Procedure.status",
+        "short": "處置狀態[preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown](請輸入 completed )"
+      },
+      {
+        "id": "Procedure.code",
+        "path": "Procedure.code",
+        "min": 1
+      },
+      {
+        "id": "Procedure.code.coding",
+        "path": "Procedure.code.coding",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Procedure.code.coding.code",
+        "path": "Procedure.code.coding.code",
+        "short": "LF.other",
+        "min": 1
+      },
+      {
+        "id": "Procedure.code.text",
+        "path": "Procedure.code.text",
+        "short": "其他治療",
+        "min": 1
+      },
+      {
+        "id": "Procedure.subject.reference",
+        "path": "Procedure.subject.reference",
+        "short": "患者 Resource Link",
+        "min": 1
+      },
+      {
+        "id": "Procedure.performed[x]",
+        "path": "Procedure.performed[x]",
+        "short": "其他治療開始日期，使用performedDateTime (LF.dother)",
+        "min": 1,
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      }
+    ]
+  }
+}
