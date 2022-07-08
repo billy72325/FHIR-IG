@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioORTTech",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioORTTech",
   "name": "VGHKSExtensionRadioORTTech",
   "status": "draft",
   "description": "此Extension用於其他放射治療技術",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioORTTech"
+        "fixedUri": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioORTTech"
       },
       {
         "id": "Extension.value[x]",

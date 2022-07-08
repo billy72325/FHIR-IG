@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSObservationLVI",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSObservationLVI",
   "name": "VGHKSObservationLVI",
   "title": "VGHKS lvi profiles",
   "status": "draft",

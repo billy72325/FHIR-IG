@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioRTH",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioRTH",
   "name": "VGHKSExtensionRadioRTH",
   "status": "draft",
   "description": "此Extension用於最高放射劑量臨床標靶體積/最高放射劑量臨床標靶體積劑量/最高放射劑量臨床標靶體積治療次數",
@@ -121,7 +121,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioRTH"
+        "fixedUri": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioRTH"
       },
       {
         "id": "Extension.value[x]",

@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioRTL",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioRTL",
   "name": "VGHKSExtensionRadioRTL",
   "status": "draft",
   "description": "此Extension用於較低放射劑量臨床標靶體積/較低放射劑量臨床標靶體積劑量/較低放射劑量臨床標靶體積治療次數",
@@ -121,7 +121,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioRTL"
+        "fixedUri": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioRTL"
       },
       {
         "id": "Extension.value[x]",

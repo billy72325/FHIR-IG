@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSObservationNPOSIT",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSObservationNPOSIT",
   "name": "VGHKSObservationNPOSIT",
   "title": "NGHKS nposit profiles",
   "status": "draft",

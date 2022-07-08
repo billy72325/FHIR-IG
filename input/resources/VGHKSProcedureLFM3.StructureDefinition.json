@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSProcedureLFM3",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSProcedureLFM3",
   "name": "VGHKSProcedureLFM3",
   "title": "VGHKS Procedure LF M3 Profile",
   "status": "draft",

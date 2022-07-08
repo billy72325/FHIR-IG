@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioEBRT",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioEBRT",
   "name": "VGHKSExtensionRadioEBRT",
   "status": "draft",
   "fhirVersion": "4.0.1",
@@ -66,7 +66,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioEBRT"
+        "fixedUri": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioEBRT"
       },
       {
         "id": "Extension.value[x]",

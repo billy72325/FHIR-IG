@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSObservationNEXAM",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSObservationNEXAM",
   "name": "VGHKSObservationNEXAM",
   "title": "VGHKS nexam profiles",
   "status": "draft",

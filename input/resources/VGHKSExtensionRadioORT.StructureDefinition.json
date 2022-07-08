@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioORT",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioORT",
   "name": "VGHKSExtensionRadioORT",
   "status": "draft",
   "description": "此Extension用於其他放射治療臨床標靶體積/其他放射治療臨床標靶體積劑量/其他放射治療臨床標靶體積治療次數",
@@ -121,7 +121,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioORT"
+        "fixedUri": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioORT"
       },
       {
         "id": "Extension.value[x]",

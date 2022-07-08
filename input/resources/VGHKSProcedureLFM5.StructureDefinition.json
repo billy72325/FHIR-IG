@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "http://www.medinfo.org.tw/StructureDefinition/VGHKSProcedureLFM5",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSProcedureLFM5",
   "name": "VGHKSProcedureLFM5",
   "title": "VGHKS Procedure LF M5 Profile",
   "status": "draft",
