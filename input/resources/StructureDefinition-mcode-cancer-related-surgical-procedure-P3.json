@@ -90,12 +90,15 @@
       {
         "id": "Procedure.identifier.system",
         "path": "Procedure.identifier.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig/"
       },
       {
         "id": "Procedure.identifier.value",
         "path": "Procedure.identifier.value",
-        "min": 1
+        "short": "[Cancer-Related Surgical Procedure]",
+        "min": 1,
+        "fixedString": "Cancer-Related Surgical Procedure"
       },
       {
         "id": "Procedure.category",

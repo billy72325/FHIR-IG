@@ -129,12 +129,15 @@
       {
         "id": "Condition.identifier.system",
         "path": "Condition.identifier.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig/"
       },
       {
         "id": "Condition.identifier.value",
         "path": "Condition.identifier.value",
-        "min": 1
+        "short": "[Secondary Cancer Condition]",
+        "min": 1,
+        "fixedString": "Secondary Cancer Condition"
       },
       {
         "id": "Condition.category.text",

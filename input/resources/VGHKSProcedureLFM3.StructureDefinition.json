@@ -14,6 +14,12 @@
   "differential": {
     "element": [
       {
+        "id": "Procedure.status",
+        "path": "Procedure.status",
+        "short": "[preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown]請填入(completed)",
+        "fixedCode": "completed"
+      },
+      {
         "id": "Procedure.code",
         "path": "Procedure.code",
         "min": 1
@@ -33,7 +39,7 @@
       {
         "id": "Procedure.code.text",
         "path": "Procedure.code.text",
-        "short": "申報醫院免疫治療",
+        "short": "[申報醫院免疫治療]",
         "min": 1
       },
       {
@@ -69,7 +75,7 @@
       {
         "id": "Procedure.reasonCode.text",
         "path": "Procedure.reasonCode.text",
-        "short": "外院免疫治療",
+        "short": "[外院免疫治療]",
         "min": 1
       },
       {

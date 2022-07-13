@@ -110,12 +110,20 @@
       {
         "id": "Observation.identifier.system",
         "path": "Observation.identifier.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig/"
       },
       {
         "id": "Observation.identifier.value",
         "path": "Observation.identifier.value",
+        "short": "[Tumor Size]",
         "min": 1
+      },
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "short": "[registered | preliminary | final | amended +]請填入(final)",
+        "fixedCode": "final"
       },
       {
         "id": "Observation.code",
@@ -133,12 +141,14 @@
       {
         "id": "Observation.code.coding.system",
         "path": "Observation.code.coding.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "http://loinc.org"
       },
       {
         "id": "Observation.code.coding.code",
         "path": "Observation.code.coding.code",
-        "min": 1
+        "min": 1,
+        "fixedCode": "21889-1"
       },
       {
         "id": "Observation.subject",
@@ -242,23 +252,26 @@
       {
         "id": "Observation.component.code.coding.system",
         "path": "Observation.component.code.coding.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "http://loinc.org"
       },
       {
         "id": "Observation.component.code.coding.code",
         "path": "Observation.component.code.coding.code",
-        "min": 1
+        "min": 1,
+        "fixedCode": "33729-5"
       },
       {
         "id": "Observation.component.code.text",
         "path": "Observation.component.code.text",
-        "short": "腫瘤大小",
+        "short": "[腫瘤大小]",
         "min": 1
       },
       {
         "id": "Observation.component.value[x]",
         "path": "Observation.component.value[x]",
         "short": "請使用valueQuantity(LF.size)",
+        "min": 1,
         "type": [
           {
             "code": "Quantity"
@@ -273,18 +286,25 @@
       {
         "id": "Observation.component.value[x].unit",
         "path": "Observation.component.value[x].unit",
-        "definition": "A human-readable form of the unit.\r\n單位：mm",
+        "short": "[mm]",
         "min": 1
       },
       {
         "id": "Observation.component.value[x].system",
         "path": "Observation.component.value[x].system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "http://hl7.org/fhir/us/mcode/ValueSet/mcode-tumor-size-units-vs"
       },
       {
         "id": "Observation.component.value[x].code",
         "path": "Observation.component.value[x].code",
+        "short": "[mm]",
         "min": 1
+      },
+      {
+        "id": "Observation.component.referenceRange",
+        "path": "Observation.component.referenceRange",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
       }
     ]
   }

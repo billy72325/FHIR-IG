@@ -97,12 +97,15 @@
       {
         "id": "Observation.identifier.system",
         "path": "Observation.identifier.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig/"
       },
       {
         "id": "Observation.identifier.value",
         "path": "Observation.identifier.value",
-        "min": 1
+        "short": "[Stage Group]",
+        "min": 1,
+        "fixedString": "Stage Group"
       },
       {
         "id": "Observation.status",
@@ -194,7 +197,7 @@
       {
         "id": "Observation.value[x].text",
         "path": "Observation.value[x].text",
-        "short": "其他分期系統期別(臨床分期/病理分期)",
+        "short": "[其他分期系統期別(臨床分期/病理分期)]",
         "min": 1
       },
       {

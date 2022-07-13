@@ -90,12 +90,20 @@
       {
         "id": "Procedure.identifier.system",
         "path": "Procedure.identifier.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig/"
       },
       {
         "id": "Procedure.identifier.value",
         "path": "Procedure.identifier.value",
+        "short": "[Cancer-Related Surgical Procedure]",
         "min": 1
+      },
+      {
+        "id": "Procedure.status",
+        "path": "Procedure.status",
+        "short": "[preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown]請填入(completed)",
+        "fixedCode": "completed"
       },
       {
         "id": "Procedure.statusReason",
@@ -141,24 +149,20 @@
         "id": "Procedure.category.coding.code",
         "path": "Procedure.category.coding.code",
         "short": "LF.misurgery",
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\ncoding[0].code請填入387713003",
         "min": 1
       },
       {
         "id": "Procedure.category.coding.display",
         "path": "Procedure.category.coding.display",
-        "short": "LF.misurgery",
+        "short": "[Surgical procedure|微創手術]",
+        "definition": "A representation of the meaning of the code in the system, following the rules of the system.\r\ncoding[0].display請填入Surgical procedure\r\ncoding[1].display請填入微創手術",
         "min": 1
       },
       {
         "id": "Procedure.category.coding.userSelected",
         "path": "Procedure.category.coding.userSelected",
-        "short": "LF.misurgery",
-        "min": 1
-      },
-      {
-        "id": "Procedure.category.text",
-        "path": "Procedure.category.text",
-        "short": "[微創手術]",
+        "definition": "Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).\r\ncoding[0].userSelected請填入True\r\ncoding[1].userSelected請填入False",
         "min": 1
       },
       {

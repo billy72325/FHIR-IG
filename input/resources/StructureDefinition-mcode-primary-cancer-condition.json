@@ -120,14 +120,36 @@
         "min": 1
       },
       {
+        "id": "Condition.identifier.use",
+        "path": "Condition.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "Condition.identifier.type",
+        "path": "Condition.identifier.type",
+        "max": "0"
+      },
+      {
         "id": "Condition.identifier.system",
         "path": "Condition.identifier.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig/"
       },
       {
         "id": "Condition.identifier.value",
         "path": "Condition.identifier.value",
+        "short": "[Primary Cancer Condition]",
         "min": 1
+      },
+      {
+        "id": "Condition.identifier.period",
+        "path": "Condition.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "Condition.identifier.assigner",
+        "path": "Condition.identifier.assigner",
+        "max": "0"
       },
       {
         "id": "Condition.category",
@@ -193,24 +215,22 @@
         ]
       },
       {
-        "id": "Condition.onset[x].value",
-        "path": "Condition.onset[x].value",
-        "min": 1
-      },
-      {
         "id": "Condition.onset[x].unit",
         "path": "Condition.onset[x].unit",
+        "short": "[years]",
         "min": 1
       },
       {
         "id": "Condition.onset[x].system",
         "path": "Condition.onset[x].system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "http://unitsofmeasure.org"
       },
       {
         "id": "Condition.onset[x].code",
         "path": "Condition.onset[x].code",
-        "min": 1
+        "min": 1,
+        "fixedCode": "a"
       },
       {
         "id": "Condition.recordedDate",
@@ -296,8 +316,7 @@
       {
         "id": "Condition.note",
         "path": "Condition.note",
-        "short": "癌症發生順序號碼",
-        "min": 1
+        "short": "癌症發生順序號碼"
       },
       {
         "id": "Condition.note.text",

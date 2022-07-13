@@ -97,62 +97,23 @@
         "min": 0
       },
       {
-        "id": "Procedure.extension:treatmentsTechnique",
+        "id": "Procedure.extension:ExtensionEBRT",
         "path": "Procedure.extension",
-        "sliceName": "treatmentsTechnique",
-        "short": "體外放射治療技術",
+        "sliceName": "ExtensionEBRT",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "Procedure.extension:treatmentsTechnique.value[x]",
-        "path": "Procedure.extension.value[x]",
-        "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).\r\n請使用valueCodeableConcept",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ]
-      },
-      {
-        "id": "Procedure.extension:treatmentsTechnique.value[x].coding.code",
-        "path": "Procedure.extension.value[x].coding.code",
-        "short": "LF.rtstatus",
-        "min": 1
-      },
-      {
-        "id": "Procedure.extension:treatmentsTechnique.value[x].text",
-        "path": "Procedure.extension.value[x].text",
-        "short": "放射治療執行狀態",
-        "min": 1
-      },
-      {
-        "id": "Procedure.extension:treatmentsRTH",
-        "path": "Procedure.extension",
-        "sliceName": "treatmentsRTH",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioRTH"
+              "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioEBRT"
             ]
           }
         ],
         "isModifier": false
       },
       {
-        "id": "Procedure.extension:treatmentsRTH.extension",
+        "id": "Procedure.extension:ExtensionEBRT.extension",
         "path": "Procedure.extension.extension",
         "slicing": {
           "discriminator": [
@@ -166,39 +127,34 @@
         "min": 0
       },
       {
-        "id": "Procedure.extension:treatmentsRTH.extension:RTH",
+        "id": "Procedure.extension:ExtensionEBRT.extension:EBRT",
         "path": "Procedure.extension.extension",
-        "sliceName": "RTH",
+        "sliceName": "EBRT",
         "min": 0
       },
       {
-        "id": "Procedure.extension:treatmentsRTH.extension:RTH.value[x].reference",
-        "path": "Procedure.extension.extension.value[x].reference",
-        "short": "LF.rth"
+        "id": "Procedure.extension:ExtensionEBRT.extension:EBRT.value[x].text",
+        "path": "Procedure.extension.extension.value[x].text",
+        "short": "[體外放射治療技術]"
       },
       {
-        "id": "Procedure.extension:treatmentsRTH.extension:RTH.value[x].display",
-        "path": "Procedure.extension.extension.value[x].display",
-        "definition": "Plain text narrative that identifies the resource in addition to the resource reference."
-      },
-      {
-        "id": "Procedure.extension:treatmentsRTL",
+        "id": "Procedure.extension:ExtensionRTH",
         "path": "Procedure.extension",
-        "sliceName": "treatmentsRTL",
+        "sliceName": "ExtensionRTH",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioRTL"
+              "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioRTH"
             ]
           }
         ],
         "isModifier": false
       },
       {
-        "id": "Procedure.extension:treatmentsRTL.extension",
+        "id": "Procedure.extension:ExtensionRTH.extension",
         "path": "Procedure.extension.extension",
         "slicing": {
           "discriminator": [
@@ -212,52 +168,187 @@
         "min": 0
       },
       {
-        "id": "Procedure.extension:treatmentsRTL.extension:RTL",
+        "id": "Procedure.extension:ExtensionRTH.extension:RTHDose",
+        "path": "Procedure.extension.extension",
+        "sliceName": "RTHDose",
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionRTH.extension:RTHDose.value[x].system",
+        "path": "Procedure.extension.extension.value[x].system",
+        "short": "LF.rth_dose",
+        "definition": "The identification of the system that provides the coded form of the unit."
+      },
+      {
+        "id": "Procedure.extension:ExtensionRTH.extension:RTHNF",
+        "path": "Procedure.extension.extension",
+        "sliceName": "RTHNF",
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionRTH.extension:RTHNF.value[x]",
+        "path": "Procedure.extension.extension.value[x]",
+        "short": "LF.rth_nf",
+        "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list)."
+      },
+      {
+        "id": "Procedure.extension:ExtensionRTL",
+        "path": "Procedure.extension",
+        "sliceName": "ExtensionRTL",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioRTL"
+            ]
+          }
+        ],
+        "isModifier": false
+      },
+      {
+        "id": "Procedure.extension:ExtensionRTL.extension",
+        "path": "Procedure.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionRTL.extension:RTL",
         "path": "Procedure.extension.extension",
         "sliceName": "RTL",
         "min": 0
       },
       {
-        "id": "Procedure.extension:treatmentsRTL.extension:RTL.value[x].reference",
-        "path": "Procedure.extension.extension.value[x].reference",
-        "short": "LF.rtl"
-      },
-      {
-        "id": "Procedure.extension:treatmentsRTL.extension:RTL.value[x].display",
+        "id": "Procedure.extension:ExtensionRTL.extension:RTL.value[x].display",
         "path": "Procedure.extension.extension.value[x].display",
-        "definition": "Plain text narrative that identifies the resource in addition to the resource reference."
+        "short": "[低放射劑量臨床標靶體積]"
       },
       {
-        "id": "Procedure.extension:treatmentsORTTech",
+        "id": "Procedure.extension:ExtensionRTL.extension:RTLDose",
+        "path": "Procedure.extension.extension",
+        "sliceName": "RTLDose",
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionRTL.extension:RTLDose.value[x].system",
+        "path": "Procedure.extension.extension.value[x].system",
+        "short": "LF.rtl_dose",
+        "definition": "The identification of the system that provides the coded form of the unit."
+      },
+      {
+        "id": "Procedure.extension:ExtensionORTTech",
         "path": "Procedure.extension",
-        "sliceName": "treatmentsORTTech",
+        "sliceName": "ExtensionORTTech",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioORTTech"
+              "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioORTTech"
             ]
           }
         ],
         "isModifier": false
       },
       {
-        "id": "Procedure.extension:treatmentsORT",
+        "id": "Procedure.extension:ExtensionORTTech.extension",
+        "path": "Procedure.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionORTTech.extension:ORTTechnique",
+        "path": "Procedure.extension.extension",
+        "sliceName": "ORTTechnique",
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionORTTech.extension:ORTTechnique.value[x].text",
+        "path": "Procedure.extension.extension.value[x].text",
+        "short": "[其他放射治療技術]"
+      },
+      {
+        "id": "Procedure.extension:ExtensionORT",
         "path": "Procedure.extension",
-        "sliceName": "treatmentsORT",
+        "sliceName": "ExtensionORT",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "https://example.org/fhir/StructureDefinition/VGHKSExtensionRadioORT"
+              "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSExtensionRadioORT"
             ]
           }
         ],
         "isModifier": false
+      },
+      {
+        "id": "Procedure.extension:ExtensionORT.extension",
+        "path": "Procedure.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionORT.extension:ORT",
+        "path": "Procedure.extension.extension",
+        "sliceName": "ORT",
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionORT.extension:ORT.value[x].display",
+        "path": "Procedure.extension.extension.value[x].display",
+        "short": "[其他放射治療臨床標靶體積]"
+      },
+      {
+        "id": "Procedure.extension:ExtensionORT.extension:ORTDose",
+        "path": "Procedure.extension.extension",
+        "sliceName": "ORTDose",
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionORT.extension:ORTDose.value[x].system",
+        "path": "Procedure.extension.extension.value[x].system",
+        "short": "LF.ort_dose",
+        "definition": "The identification of the system that provides the coded form of the unit."
+      },
+      {
+        "id": "Procedure.extension:ExtensionORT.extension:ORTNF",
+        "path": "Procedure.extension.extension",
+        "sliceName": "ORTNF",
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionORT.extension:ORTNF.value[x]",
+        "path": "Procedure.extension.extension.value[x]",
+        "short": "LF.ort_nf",
+        "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list)."
       },
       {
         "id": "Procedure.identifier",
@@ -267,12 +358,20 @@
       {
         "id": "Procedure.identifier.system",
         "path": "Procedure.identifier.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig/"
       },
       {
         "id": "Procedure.identifier.value",
         "path": "Procedure.identifier.value",
+        "short": "[Radiotherapy Course Summary]",
         "min": 1
+      },
+      {
+        "id": "Procedure.status",
+        "path": "Procedure.status",
+        "short": "[preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown]請填入(completed)",
+        "fixedCode": "completed"
       },
       {
         "id": "Procedure.statusReason",
@@ -335,18 +434,22 @@
       {
         "id": "Procedure.code.coding.code",
         "path": "Procedure.code.coding.code",
-        "short": "LF.srs, LF.sls",
+        "short": "[USCRS-33529]",
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\ncoding[0].code請填入USCRS-33529",
         "min": 1
       },
       {
         "id": "Procedure.code.coding.display",
         "path": "Procedure.code.coding.display",
-        "short": "[放射治療與手術順序|區域治療與全身性治療順序]",
+        "short": "[Radiotherapy Course of Treatment (regime/therapy)|放射治療與手術順序|放射治療與手術順序]",
+        "definition": "A representation of the meaning of the code in the system, following the rules of the system.\r\ncoding[0].display請輸入Radiotherapy Course of Treatment (regime/therapy)\r\ncoding[1].display請輸入放射治療與手術順序\r\ncoding[2].display請輸入放射治療與手術順序",
         "min": 1
       },
       {
         "id": "Procedure.code.coding.userSelected",
         "path": "Procedure.code.coding.userSelected",
+        "short": "[False|True|True]",
+        "definition": "Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).\r\ncoding[0].userSelected請輸入FALSE\r\ncoding[1].userSelected請輸入True\r\ncoding[2].userSelected請輸入True",
         "min": 1
       },
       {
@@ -372,7 +475,6 @@
         "path": "Procedure.performed[x]",
         "short": "放射治療開始日期/放射治療結束日期",
         "definition": "Estimated or actual date, date-time, period, or age when the procedure was performed.  Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.\r\n\r\nperformedPeriod.star [放射治療開始日期]\r\nperformedPeriod.end[放射治療結束日期]",
-        "min": 1,
         "type": [
           {
             "code": "Period"
@@ -439,7 +541,7 @@
       {
         "id": "Procedure.outcome.text",
         "path": "Procedure.outcome.text",
-        "short": "放射治療臨床標靶體積摘要",
+        "short": "[放射治療臨床標靶體積摘要]",
         "min": 1
       },
       {
@@ -477,13 +579,13 @@
       {
         "id": "Procedure.focalDevice.action.text",
         "path": "Procedure.focalDevice.action.text",
-        "short": "[放射治療儀器 | 其他放射治療儀器]",
+        "short": "[放射治療儀器|其他放射治療儀器]",
         "min": 1
       },
       {
         "id": "Procedure.focalDevice.manipulated.display",
         "path": "Procedure.focalDevice.manipulated.display",
-        "short": "LF.rtmodal, LF.ort_modal",
+        "short": "[放射治療儀器|其他放射治療儀器]",
         "min": 1
       }
     ]

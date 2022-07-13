@@ -99,12 +99,14 @@
       {
         "id": "Patient.identifier.system",
         "path": "Patient.identifier.system",
-        "short": "識別碼給定機構 URL"
+        "short": "識別碼給定機構 URL",
+        "definition": "Establishes the namespace for the value - that is, a URL that describes a set values that are unique.\r\nidentifier[1].system請直接填入[https://build.fhir.org/ig/HL7/fhir-mCODE-ig/]"
       },
       {
         "id": "Patient.identifier.value",
         "path": "Patient.identifier.value",
         "short": "身分證/病歷號 (LF.id, SF.id, TOTFA.d3, TOTFB.d3, LABD.h9, LABM.h9, DEATH.SSN, CASE.SSN)",
+        "definition": "The portion of the identifier typically relevant to the user and which is unique within the context of the system.\r\nidentifier[0]請填入身分證\r\nidentifier[0]請直接填入Cancer Patient",
         "min": 1
       },
       {
@@ -170,12 +172,14 @@
       {
         "id": "Patient.gender",
         "path": "Patient.gender",
-        "short": "性別 [male | female | other | unknown] (LF.sex, SF.sex, DEATH.d2)"
+        "short": "性別 [male | female | other | unknown] (LF.sex, SF.sex, DEATH.d2)",
+        "min": 1
       },
       {
         "id": "Patient.birthDate",
         "path": "Patient.birthDate",
-        "short": "西元生日 (LF.dbirth, SF.dbirth, TOTFA.d11, TOTFB.d6, LABD.h10, LABM.h10, CASE.d3, DEATH.d3)"
+        "short": "西元生日 (LF.dbirth, SF.dbirth, TOTFA.d11, TOTFB.d6, LABD.h10, LABM.h10, CASE.d3, DEATH.d3)",
+        "min": 1
       },
       {
         "id": "Patient.deceased[x]",

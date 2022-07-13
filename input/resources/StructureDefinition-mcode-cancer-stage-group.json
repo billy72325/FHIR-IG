@@ -97,11 +97,13 @@
       {
         "id": "Observation.identifier.system",
         "path": "Observation.identifier.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig/"
       },
       {
         "id": "Observation.identifier.value",
         "path": "Observation.identifier.value",
+        "short": "[Stage Group]",
         "min": 1
       },
       {

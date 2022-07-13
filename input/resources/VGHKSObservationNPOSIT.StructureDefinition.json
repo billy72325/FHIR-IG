@@ -14,9 +14,15 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "short": "[registered | preliminary | final | amended +]請填入(final)",
+        "fixedCode": "final"
+      },
+      {
         "id": "Observation.code.text",
         "path": "Observation.code.text",
-        "short": "區域淋巴管侵犯數目",
+        "short": "[區域淋巴管侵犯數目]",
         "min": 1
       },
       {

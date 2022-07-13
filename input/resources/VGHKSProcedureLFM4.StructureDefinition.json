@@ -14,6 +14,12 @@
   "differential": {
     "element": [
       {
+        "id": "Procedure.status",
+        "path": "Procedure.status",
+        "short": "[preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown]請填入(completed)",
+        "fixedCode": "completed"
+      },
+      {
         "id": "Procedure.code",
         "path": "Procedure.code",
         "min": 1
@@ -32,7 +38,7 @@
       {
         "id": "Procedure.code.text",
         "path": "Procedure.code.text",
-        "short": "骨隨/幹細胞移植或內分泌處置",
+        "short": "[骨隨/幹細胞移植或內分泌處置]",
         "min": 1
       },
       {

@@ -97,11 +97,13 @@
       {
         "id": "Observation.identifier.system",
         "path": "Observation.identifier.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig/"
       },
       {
         "id": "Observation.identifier.value",
         "path": "Observation.identifier.value",
+        "short": "[Primary Tumor(T) Category]",
         "min": 1
       },
       {
@@ -131,7 +133,7 @@
       {
         "id": "Observation.category.text",
         "path": "Observation.category.text",
-        "short": "AJCC癌症分期版本與章節",
+        "short": "[AJCC癌症分期版本與章節]",
         "min": 1
       },
       {
@@ -144,7 +146,9 @@
         "id": "Observation.code.coding.code",
         "path": "Observation.code.coding.code",
         "short": "LF.ct, LF.pt",
-        "min": 1
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\n臨床T對應之code-21905-5\r\n病理T對應之code-21899-0",
+        "min": 1,
+        "fixedCode": "21905-5;21899-0"
       },
       {
         "id": "Observation.code.text",

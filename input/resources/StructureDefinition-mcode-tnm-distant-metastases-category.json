@@ -97,11 +97,13 @@
       {
         "id": "Observation.identifier.system",
         "path": "Observation.identifier.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig/"
       },
       {
         "id": "Observation.identifier.value",
         "path": "Observation.identifier.value",
+        "short": "[Distant Metastases(M) Category]",
         "min": 1
       },
       {
@@ -144,7 +146,9 @@
         "id": "Observation.code.coding.code",
         "path": "Observation.code.coding.code",
         "short": "LF.cm, LF.pm",
-        "min": 1
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\n臨床M對應之code-21907-1\r\n病理M對應之code-21901-4",
+        "min": 1,
+        "fixedCode": "21907-1;21901-4"
       },
       {
         "id": "Observation.code.text",

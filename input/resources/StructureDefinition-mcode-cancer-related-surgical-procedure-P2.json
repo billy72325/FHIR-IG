@@ -90,12 +90,20 @@
       {
         "id": "Procedure.identifier.system",
         "path": "Procedure.identifier.system",
-        "min": 1
+        "min": 1,
+        "fixedUri": "https://build.fhir.org/ig/HL7/fhir-mCODE-ig/"
       },
       {
         "id": "Procedure.identifier.value",
         "path": "Procedure.identifier.value",
-        "min": 1
+        "short": "[Cancer-Related Surgical Procedure]",
+        "min": 1,
+        "fixedString": "Cancer-Related Surgical Procedure"
+      },
+      {
+        "id": "Procedure.status",
+        "path": "Procedure.status",
+        "short": "preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown(請使用completed)"
       },
       {
         "id": "Procedure.category",
@@ -146,7 +154,7 @@
       {
         "id": "Procedure.code.text",
         "path": "Procedure.code.text",
-        "short": "[申報醫院區域淋巴結 手術範圍]",
+        "short": "[申報醫院區域淋巴結手術範圍]",
         "min": 1
       },
       {
@@ -180,7 +188,7 @@
       {
         "id": "Procedure.reasonCode.text",
         "path": "Procedure.reasonCode.text",
-        "short": "[外院區域淋巴結手術 範圍]",
+        "short": "[外院區域淋巴結手術範圍]",
         "min": 1
       },
       {

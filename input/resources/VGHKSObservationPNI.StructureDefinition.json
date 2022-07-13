@@ -14,9 +14,15 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "short": "[registered | preliminary | final | amended +]請使用(final)",
+        "fixedCode": "final"
+      },
+      {
         "id": "Observation.code.text",
         "path": "Observation.code.text",
-        "short": "神經侵襲",
+        "short": "[神經侵襲]",
         "min": 1
       },
       {
