@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSObservationLABM",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSObservationLABM",
   "name": "VGHKSObservationLABM",
   "status": "draft",
   "fhirVersion": "4.0.1",

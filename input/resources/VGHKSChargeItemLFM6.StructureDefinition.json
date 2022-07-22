@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "VGHKS-ChargeItem-LF-M6",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSChargeItemLFM6",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSChargeItemLFM6",
   "name": "VGHKSChargeItemLFM6",
   "title": "VGHKS ChargeItem LF M6 Profile",
   "status": "draft",

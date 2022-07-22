@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSChargeItemTOTFAB",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSChargeItemTOTFAB",
   "name": "VGHKSChargeItemTOTFAB",
   "status": "draft",
   "fhirVersion": "4.0.1",

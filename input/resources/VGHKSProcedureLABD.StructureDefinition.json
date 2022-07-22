@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSProcedureLABD",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSProcedureLABD",
   "name": "VGHKSProcedureLABD",
   "status": "draft",
   "fhirVersion": "4.0.1",

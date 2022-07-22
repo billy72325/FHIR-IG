@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSEncounterLABM",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSEncounterLABM",
   "name": "VGHKSEncounterLABM",
   "status": "draft",
   "fhirVersion": "4.0.1",

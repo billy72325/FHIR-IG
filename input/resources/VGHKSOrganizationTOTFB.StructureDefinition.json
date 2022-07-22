@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSOrganizationTOTFB",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSOrganizationTOTFB",
   "name": "VGHKSOrganizationTOTFB",
   "status": "draft",
   "fhirVersion": "4.0.1",

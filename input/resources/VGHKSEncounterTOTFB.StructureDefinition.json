@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSEncounterTOTFB",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSEncounterTOTFB",
   "name": "VGHKSEncounterTOTFB",
   "status": "draft",
   "fhirVersion": "4.0.1",

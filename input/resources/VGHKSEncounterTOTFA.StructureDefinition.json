@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSEncounterTOTFA",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSEncounterTOTFA",
   "name": "VGHKSEncounterTOTFA",
   "status": "draft",
   "fhirVersion": "4.0.1",
@@ -103,7 +103,6 @@
         "id": "Encounter.type.text",
         "path": "Encounter.type.text",
         "short": "[案件分類]",
-        "definition": "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.",
         "min": 1
       },
       {

@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSObservationTOTFA",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSObservationTOTFA",
   "name": "VGHKSObservationTOTFA",
   "status": "draft",
   "fhirVersion": "4.0.1",

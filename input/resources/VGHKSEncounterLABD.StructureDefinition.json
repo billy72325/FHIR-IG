@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSEncounterLABD",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSEncounterLABD",
   "name": "VGHKSEncounterLABD",
   "status": "draft",
   "fhirVersion": "4.0.1",
@@ -178,11 +178,6 @@
         "id": "Encounter.appointment",
         "path": "Encounter.appointment",
         "max": "0"
-      },
-      {
-        "id": "Encounter.period",
-        "path": "Encounter.period",
-        "definition": "The start and end time of the encounter."
       },
       {
         "id": "Encounter.period.start",

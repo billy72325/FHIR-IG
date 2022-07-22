@@ -1,15 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\input",
-    "\\input\\CodeSystem",
-    "\\input\\cql",
-    "\\input\\examples",
-    "\\input\\images",
-    "\\input\\images-source",
-    "\\input\\includes",
-    "\\input\\pagecontent",
-    "\\input\\resources"
+    ""
   ],
   "PreviewInSolutionExplorer": false
 }

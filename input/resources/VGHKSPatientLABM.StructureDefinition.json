@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSPatientLABM",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSPatientLABM",
   "name": "VGHKSPatientLABM",
   "status": "draft",
   "fhirVersion": "4.0.1",

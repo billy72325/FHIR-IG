@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSObservationDEATH",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSObservationDEATH",
   "name": "VGHKSObservationDEATH",
   "status": "draft",
   "fhirVersion": "4.0.1",
@@ -91,7 +91,6 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "definition": "The information determined as a result of making the observation, if the information has a simple value.",
         "type": [
           {
             "code": "CodeableConcept"

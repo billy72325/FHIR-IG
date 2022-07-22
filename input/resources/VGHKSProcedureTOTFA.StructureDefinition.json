@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSProcedureTOTFA",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSProcedureTOTFA",
   "name": "VGHKSProcedureTOTFA",
   "status": "draft",
   "fhirVersion": "4.0.1",

@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "https://example.org/fhir/StructureDefinition/VGHKSOrganizationLABM",
+  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSOrganizationLABM",
   "name": "VGHKSOrganizationLABM",
   "status": "draft",
   "fhirVersion": "4.0.1",
