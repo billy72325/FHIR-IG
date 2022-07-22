@@ -113,6 +113,36 @@
         "isModifier": false
       },
       {
+        "id": "Procedure.extension:ExtensionEBRT.extension",
+        "path": "Procedure.extension.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionEBRT.extension:modality",
+        "path": "Procedure.extension.extension",
+        "sliceName": "modality",
+        "min": 0
+      },
+      {
+        "id": "Procedure.extension:ExtensionEBRT.extension:modality.value[x].coding.code",
+        "path": "Procedure.extension.extension.value[x].coding.code",
+        "short": "LF.ebrt"
+      },
+      {
+        "id": "Procedure.extension:ExtensionEBRT.extension:modality.value[x].text",
+        "path": "Procedure.extension.extension.value[x].text",
+        "short": "[體外放射治療技術]"
+      },
+      {
         "id": "Procedure.extension:ExtensionRTH",
         "path": "Procedure.extension",
         "sliceName": "ExtensionRTH",
@@ -140,13 +170,13 @@
           ],
           "rules": "open"
         },
-        "min": 1
+        "min": 0
       },
       {
         "id": "Procedure.extension:ExtensionRTH.extension:volume",
         "path": "Procedure.extension.extension",
         "sliceName": "volume",
-        "min": 1
+        "min": 0
       },
       {
         "id": "Procedure.extension:ExtensionRTH.extension:volume.value[x].reference",
@@ -182,6 +212,11 @@
         "min": 0
       },
       {
+        "id": "Procedure.extension:ExtensionRTH.extension:fractionsDelivered.value[x]",
+        "path": "Procedure.extension.extension.value[x]",
+        "short": "LF.rth_nf"
+      },
+      {
         "id": "Procedure.extension:ExtensionRTL",
         "path": "Procedure.extension",
         "sliceName": "ExtensionRTL",
@@ -209,13 +244,13 @@
           ],
           "rules": "open"
         },
-        "min": 1
+        "min": 0
       },
       {
         "id": "Procedure.extension:ExtensionRTL.extension:volume",
         "path": "Procedure.extension.extension",
         "sliceName": "volume",
-        "min": 1
+        "min": 0
       },
       {
         "id": "Procedure.extension:ExtensionRTL.extension:volume.value[x].reference",
@@ -282,21 +317,21 @@
           ],
           "rules": "open"
         },
-        "min": 1
+        "min": 0
       },
       {
-        "id": "Procedure.extension:ExtensionORTTech.extension:ORTTech",
+        "id": "Procedure.extension:ExtensionORTTech.extension:modality",
         "path": "Procedure.extension.extension",
-        "sliceName": "ORTTech",
-        "min": 1
+        "sliceName": "modality",
+        "min": 0
       },
       {
-        "id": "Procedure.extension:ExtensionORTTech.extension:ORTTech.value[x].coding.code",
+        "id": "Procedure.extension:ExtensionORTTech.extension:modality.value[x].coding.code",
         "path": "Procedure.extension.extension.value[x].coding.code",
         "short": "LF.ort_tech"
       },
       {
-        "id": "Procedure.extension:ExtensionORTTech.extension:ORTTech.value[x].text",
+        "id": "Procedure.extension:ExtensionORTTech.extension:modality.value[x].text",
         "path": "Procedure.extension.extension.value[x].text",
         "short": "[其他放射治療技術]"
       },

@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "VGHKS-Organization-TOTFA",
   "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSOrganizationTOTFA",
   "name": "VGHKSOrganizationTOTFA",
+  "title": "VGHKS Organization TOTFA profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

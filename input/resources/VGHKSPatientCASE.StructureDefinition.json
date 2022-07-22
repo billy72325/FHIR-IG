@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "VGHKS-Patient-CASE",
   "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSPatientCASE",
   "name": "VGHKSPatientCASE",
+  "title": "VGHKS Patient CASE profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

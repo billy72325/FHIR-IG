@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "VGHKS-ChargeItem-LABM",
   "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSChargeItemLABM",
   "name": "VGHKSChargeItemLABM",
+  "title": "VGHKS ChargeItem LABM profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "VGHKS-Organization-LABM",
   "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSOrganizationLABM",
   "name": "VGHKSOrganizationLABM",
+  "title": "VGHKS Organization LABM profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

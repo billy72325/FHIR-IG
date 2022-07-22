@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "VGHKS-Encounter-LABD",
   "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSEncounterLABD",
   "name": "VGHKSEncounterLABD",
+  "title": "VGHKS Encounter LABD profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

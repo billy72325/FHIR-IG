@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "VGHKS-ChargeItem-TOTFB",
   "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSChargeItemTOTFAB",
-  "name": "VGHKSChargeItemTOTFAB",
+  "name": "VGHKSChargeItemTOTFB",
+  "title": "VGHKS ChargeItem TOTFB Profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

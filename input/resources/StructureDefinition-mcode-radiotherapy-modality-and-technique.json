@@ -52,7 +52,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Procedure"
+      "expression": "Element"
     }
   ],
   "type": "Extension",
@@ -157,14 +157,13 @@
           ],
           "rules": "open"
         },
-        "min": 1
+        "min": 0
       },
       {
-        "id": "Extension.extension:ORTTech",
+        "id": "Extension.extension:modality",
         "path": "Extension.extension",
-        "sliceName": "ORTTech",
-        "min": 1,
-        "max": "1",
+        "sliceName": "modality",
+        "min": 0,
         "type": [
           {
             "code": "Extension",
@@ -176,12 +175,12 @@
         "mustSupport": true
       },
       {
-        "id": "Extension.extension:ORTTech.url",
+        "id": "Extension.extension:modality.url",
         "path": "Extension.extension.url",
-        "fixedUri": "ORTTech"
+        "fixedUri": "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-radiotherapy-modality"
       },
       {
-        "id": "Extension.extension:ORTTech.value[x]",
+        "id": "Extension.extension:modality.value[x]",
         "path": "Extension.extension.value[x]",
         "type": [
           {
@@ -190,7 +189,7 @@
         ]
       },
       {
-        "id": "Extension.extension:ORTTech.value[x].text",
+        "id": "Extension.extension:modality.value[x].text",
         "path": "Extension.extension.value[x].text",
         "min": 1
       },

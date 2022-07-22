@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "VGHKS-Observation-LABD",
   "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSObservationLABD",
   "name": "VGHKSObservationLABD",
+  "title": "VGHKS Observation LABD profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

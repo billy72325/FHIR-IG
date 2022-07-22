@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "VGHKS-Observation-DEATH",
   "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSObservationDEATH",
   "name": "VGHKSObservationDEATH",
+  "title": "VGHKS Observation DEATH profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

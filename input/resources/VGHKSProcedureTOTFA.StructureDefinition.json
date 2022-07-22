@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "VGHKS-Procedure-TOTFA",
   "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSProcedureTOTFA",
   "name": "VGHKSProcedureTOTFA",
+  "title": "VGHKS Procedure TOTFA profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",

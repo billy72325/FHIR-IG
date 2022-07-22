@@ -1,7 +1,9 @@
 {
   "resourceType": "StructureDefinition",
+  "id": "VGHKS-Observation-TOTFB",
   "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSObservationTOTFB",
   "name": "VGHKSObservationTOTFB",
+  "title": "VGHKS Observation TOTFB profile",
   "status": "draft",
   "fhirVersion": "4.0.1",
   "kind": "resource",
