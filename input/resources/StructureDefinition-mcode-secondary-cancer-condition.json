@@ -118,7 +118,7 @@
       {
         "id": "Condition.extension:relatedPrimaryCancerCondition.value[x].reference",
         "path": "Condition.extension.value[x].reference",
-        "short": "Condition LF-Primary Cancer Profile 的 Link",
+        "short": "Condition LF-Primary Cancer Profile Link",
         "min": 1
       },
       {
@@ -136,8 +136,7 @@
         "id": "Condition.identifier.value",
         "path": "Condition.identifier.value",
         "short": "[Secondary Cancer Condition]",
-        "min": 1,
-        "fixedString": "Secondary Cancer Condition"
+        "min": 1
       },
       {
         "id": "Condition.category.text",
@@ -221,8 +220,8 @@
       {
         "id": "Condition.recordedDate",
         "path": "Condition.recordedDate",
-        "short": "首次復發日期 (LF.drecur)",
-        "min": 1
+        "short": "LF.drecur",
+        "definition": "The recordedDate represents when this particular Condition record was created in the system, which is often a system-generated date.\r\n首次復發日期"
       }
     ]
   }

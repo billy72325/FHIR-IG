@@ -120,11 +120,6 @@
         "min": 1
       },
       {
-        "id": "Observation.category.coding",
-        "path": "Observation.category.coding",
-        "min": 1
-      },
-      {
         "id": "Observation.category.coding.code",
         "path": "Observation.category.coding.code",
         "short": "LF.ajcc_ed",
@@ -145,10 +140,10 @@
       {
         "id": "Observation.code.coding.code",
         "path": "Observation.code.coding.code",
-        "short": "LF.cn, LF.pn",
+        "short": "LF.cn/LF.pn",
         "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\n臨床N對應之code-21906-3\r\n病理N對應之code-21900-6",
         "min": 1,
-        "fixedCode": "21906-3;21900-6"
+        "fixedCode": "21906-3/21900-6"
       },
       {
         "id": "Observation.code.text",
@@ -199,7 +194,6 @@
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
@@ -208,14 +202,9 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x].coding",
-        "path": "Observation.value[x].coding",
-        "min": 1
-      },
-      {
         "id": "Observation.value[x].coding.code",
         "path": "Observation.value[x].coding.code",
-        "short": "LF.cn, LF.pn",
+        "short": "LF.cn/LF.pn",
         "min": 1
       },
       {

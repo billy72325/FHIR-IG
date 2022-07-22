@@ -128,14 +128,6 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://loinc.org",
-              "code": "21889-1"
-            }
-          ]
-        },
         "mustSupport": true
       },
       {
@@ -192,8 +184,8 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
-        "short": "首次顯微鏡檢證實日期，使用 effectiveDateTime (LF.dmconf)",
-        "min": 1,
+        "short": "LF.dmconf",
+        "definition": "The time or time-period the observed value is asserted as being true. For biological subjects - e.g. human patients - this is usually called the \"physiologically relevant time\". This is usually either the time of the procedure or of specimen collection, but very often the source of the date/time is not known, only the date/time itself.\r\n使用 effectiveDateTime \r\n首次顯微鏡檢證實日期",
         "type": [
           {
             "code": "dateTime"
@@ -211,11 +203,6 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.method.coding",
-        "path": "Observation.method.coding",
-        "min": 1
-      },
-      {
         "id": "Observation.method.coding.code",
         "path": "Observation.method.coding.code",
         "short": "LF.confirm",
@@ -226,22 +213,6 @@
         "path": "Observation.method.text",
         "short": "[癌症確診方式]",
         "min": 1
-      },
-      {
-        "id": "Observation.specimen",
-        "path": "Observation.specimen",
-        "short": "Identifies a tumor that has been removed from the body",
-        "definition": "Reference to a Specimen resource conforming to TumorSpecimen.",
-        "comment": "Use **only** when the tumor **has** been removed from the body. If the tumor has been not removed, use `focus` instead and leave `specimen` empty.",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-specimen"
-            ]
-          }
-        ],
-        "mustSupport": true
       },
       {
         "id": "Observation.component",
@@ -281,6 +252,7 @@
       {
         "id": "Observation.component.value[x].value",
         "path": "Observation.component.value[x].value",
+        "short": "LF.size",
         "min": 1
       },
       {

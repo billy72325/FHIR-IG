@@ -1,0 +1,42 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "VGHKS-ChargeItem-LF-M6",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSChargeItemLFM6",
+  "name": "VGHKSChargeItemLFM6",
+  "title": "VGHKS ChargeItem LF M6 Profile",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "ChargeItem",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ChargeItem",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ChargeItem.status",
+        "path": "ChargeItem.status",
+        "short": "資料狀態 [planned | billable | not-billable | aborted | billed | entered-in-error | unknown] (請輸入 billed )",
+        "fixedCode": "billed"
+      },
+      {
+        "id": "ChargeItem.code.coding.code",
+        "path": "ChargeItem.code.coding.code",
+        "short": "LF.palli_h",
+        "min": 1
+      },
+      {
+        "id": "ChargeItem.code.text",
+        "path": "ChargeItem.code.text",
+        "short": "[申報醫院緩和照護]",
+        "min": 1
+      },
+      {
+        "id": "ChargeItem.subject.reference",
+        "path": "ChargeItem.subject.reference",
+        "short": "患者 Resource Link",
+        "min": 1
+      }
+    ]
+  }
+}

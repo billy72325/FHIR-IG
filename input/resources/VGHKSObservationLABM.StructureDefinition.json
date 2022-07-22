@@ -1,0 +1,305 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSObservationLABM",
+  "name": "VGHKSObservationLABM",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation.identifier.use",
+        "path": "Observation.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "Observation.identifier.type",
+        "path": "Observation.identifier.type",
+        "max": "0"
+      },
+      {
+        "id": "Observation.identifier.system",
+        "path": "Observation.identifier.system",
+        "max": "0"
+      },
+      {
+        "id": "Observation.identifier.value",
+        "path": "Observation.identifier.value",
+        "short": "LABM.r1",
+        "definition": "The portion of the identifier typically relevant to the user and which is unique within the context of the system.\r\n報告序號"
+      },
+      {
+        "id": "Observation.identifier.period",
+        "path": "Observation.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "Observation.identifier.assigner",
+        "path": "Observation.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "Observation.basedOn",
+        "path": "Observation.basedOn",
+        "max": "0"
+      },
+      {
+        "id": "Observation.partOf",
+        "path": "Observation.partOf",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Observation.partOf.reference",
+        "path": "Observation.partOf.reference",
+        "short": "LABM Procedure Resource Link",
+        "min": 1
+      },
+      {
+        "id": "Observation.partOf.type",
+        "path": "Observation.partOf.type",
+        "max": "0"
+      },
+      {
+        "id": "Observation.partOf.identifier",
+        "path": "Observation.partOf.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Observation.partOf.display",
+        "path": "Observation.partOf.display",
+        "max": "0"
+      },
+      {
+        "id": "Observation.status",
+        "path": "Observation.status",
+        "short": "[registered | preliminary | final | amended +]請輸入(final)",
+        "fixedCode": "final"
+      },
+      {
+        "id": "Observation.category",
+        "path": "Observation.category",
+        "max": "0"
+      },
+      {
+        "id": "Observation.code.coding.version",
+        "path": "Observation.code.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
+        "short": "LABM.r2",
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\n檢驗項目名稱"
+      },
+      {
+        "id": "Observation.code.coding.userSelected",
+        "path": "Observation.code.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Observation.subject",
+        "path": "Observation.subject",
+        "min": 1
+      },
+      {
+        "id": "Observation.subject.reference",
+        "path": "Observation.subject.reference",
+        "short": "患者Resource Link",
+        "min": 1
+      },
+      {
+        "id": "Observation.subject.type",
+        "path": "Observation.subject.type",
+        "max": "0"
+      },
+      {
+        "id": "Observation.subject.identifier",
+        "path": "Observation.subject.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Observation.subject.display",
+        "path": "Observation.subject.display",
+        "max": "0"
+      },
+      {
+        "id": "Observation.focus",
+        "path": "Observation.focus",
+        "max": "0"
+      },
+      {
+        "id": "Observation.encounter",
+        "path": "Observation.encounter",
+        "min": 1
+      },
+      {
+        "id": "Observation.encounter.reference",
+        "path": "Observation.encounter.reference",
+        "short": "LABM 看診紀錄 Resource Link",
+        "min": 1
+      },
+      {
+        "id": "Observation.encounter.type",
+        "path": "Observation.encounter.type",
+        "max": "0"
+      },
+      {
+        "id": "Observation.encounter.identifier",
+        "path": "Observation.encounter.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Observation.encounter.display",
+        "path": "Observation.encounter.display",
+        "max": "0"
+      },
+      {
+        "id": "Observation.effective[x]",
+        "path": "Observation.effective[x]",
+        "max": "0"
+      },
+      {
+        "id": "Observation.issued",
+        "path": "Observation.issued",
+        "max": "0"
+      },
+      {
+        "id": "Observation.performer",
+        "path": "Observation.performer",
+        "max": "0"
+      },
+      {
+        "id": "Observation.value[x]",
+        "path": "Observation.value[x]",
+        "short": "LABM.r4",
+        "definition": "The information determined as a result of making the observation, if the information has a simple value.\r\n檢驗報告結果值",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Observation.dataAbsentReason",
+        "path": "Observation.dataAbsentReason",
+        "max": "0"
+      },
+      {
+        "id": "Observation.interpretation.coding.version",
+        "path": "Observation.interpretation.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Observation.interpretation.coding.code",
+        "path": "Observation.interpretation.coding.code",
+        "short": "LABM.r7, LABM.r8-1, LABM.r12",
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\nLABM.r7對應至interpretation[0].coding[0].code\r\nLABM.r8-1對應至interpretation[1].coding[0].code\r\nLABM.r12對應至interpretation[2].coding[0].code"
+      },
+      {
+        "id": "Observation.interpretation.coding.userSelected",
+        "path": "Observation.interpretation.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Observation.interpretation.text",
+        "path": "Observation.interpretation.text",
+        "short": "[報告結果, 病理發現及診斷, 檢驗（查）結果值註記]",
+        "definition": "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.\r\ninterpretation[0].text請輸入報告結果\r\ninterpretation[1].text請輸入病理發現及診斷\r\ninterpretation[2].text請輸入檢驗（查）結果值註記",
+        "min": 1
+      },
+      {
+        "id": "Observation.note.author[x]",
+        "path": "Observation.note.author[x]",
+        "max": "0"
+      },
+      {
+        "id": "Observation.note.time",
+        "path": "Observation.note.time",
+        "max": "0"
+      },
+      {
+        "id": "Observation.note.text",
+        "path": "Observation.note.text",
+        "short": "LABM.r5",
+        "definition": "The text of the annotation in markdown format.\r\n單位"
+      },
+      {
+        "id": "Observation.bodySite",
+        "path": "Observation.bodySite",
+        "max": "0"
+      },
+      {
+        "id": "Observation.method.coding.version",
+        "path": "Observation.method.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Observation.method.coding.code",
+        "path": "Observation.method.coding.code",
+        "short": "LABM.r3",
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\n檢驗方法"
+      },
+      {
+        "id": "Observation.method.coding.userSelected",
+        "path": "Observation.method.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Observation.specimen",
+        "path": "Observation.specimen",
+        "max": "0"
+      },
+      {
+        "id": "Observation.device",
+        "path": "Observation.device",
+        "max": "0"
+      },
+      {
+        "id": "Observation.referenceRange.type",
+        "path": "Observation.referenceRange.type",
+        "max": "0"
+      },
+      {
+        "id": "Observation.referenceRange.appliesTo",
+        "path": "Observation.referenceRange.appliesTo",
+        "max": "0"
+      },
+      {
+        "id": "Observation.referenceRange.age",
+        "path": "Observation.referenceRange.age",
+        "max": "0"
+      },
+      {
+        "id": "Observation.referenceRange.text",
+        "path": "Observation.referenceRange.text",
+        "short": "LABM.r6-1/LABM.r6-2",
+        "definition": "Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation.  An example would be a reference value of \"Negative\" or a list or table of \"normals\".\r\nLABM.r6-1對應至參考值下限\r\nLABM.r6-2對應至參考值上限"
+      },
+      {
+        "id": "Observation.hasMember",
+        "path": "Observation.hasMember",
+        "max": "0"
+      },
+      {
+        "id": "Observation.derivedFrom",
+        "path": "Observation.derivedFrom",
+        "max": "0"
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "max": "0"
+      },
+      {
+        "id": "Observation.component.referenceRange",
+        "path": "Observation.component.referenceRange",
+        "contentReference": "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange"
+      }
+    ]
+  }
+}

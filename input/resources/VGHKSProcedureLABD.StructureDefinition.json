@@ -1,0 +1,222 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSProcedureLABD",
+  "name": "VGHKSProcedureLABD",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Procedure",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Procedure",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Procedure.identifier",
+        "path": "Procedure.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.instantiatesCanonical",
+        "path": "Procedure.instantiatesCanonical",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.instantiatesUri",
+        "path": "Procedure.instantiatesUri",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.basedOn",
+        "path": "Procedure.basedOn",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.partOf",
+        "path": "Procedure.partOf",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.status",
+        "path": "Procedure.status",
+        "short": "[preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown]請輸入(preparation)",
+        "fixedCode": "preparation"
+      },
+      {
+        "id": "Procedure.statusReason",
+        "path": "Procedure.statusReason",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.category.coding.version",
+        "path": "Procedure.category.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.category.coding.code",
+        "path": "Procedure.category.coding.code",
+        "short": "LABD.h22"
+      },
+      {
+        "id": "Procedure.category.coding.userSelected",
+        "path": "Procedure.category.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.category.text",
+        "path": "Procedure.category.text",
+        "short": "[檢體採檢方法/來源/類別]",
+        "min": 1
+      },
+      {
+        "id": "Procedure.code.coding.version",
+        "path": "Procedure.code.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.code.coding.code",
+        "path": "Procedure.code.coding.code",
+        "short": "LABD.h15"
+      },
+      {
+        "id": "Procedure.code.coding.userSelected",
+        "path": "Procedure.code.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.code.text",
+        "path": "Procedure.code.text",
+        "short": "[醫令代碼]",
+        "min": 1
+      },
+      {
+        "id": "Procedure.subject.reference",
+        "path": "Procedure.subject.reference",
+        "short": "患者Resource Link",
+        "min": 1
+      },
+      {
+        "id": "Procedure.subject.type",
+        "path": "Procedure.subject.type",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.subject.identifier",
+        "path": "Procedure.subject.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.subject.display",
+        "path": "Procedure.subject.display",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.encounter",
+        "path": "Procedure.encounter",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.performed[x]",
+        "path": "Procedure.performed[x]",
+        "type": [
+          {
+            "code": "Period"
+          }
+        ]
+      },
+      {
+        "id": "Procedure.performed[x].start",
+        "path": "Procedure.performed[x].start",
+        "short": "LABD.h20",
+        "definition": "The start of the period. The boundary is inclusive.\r\n採檢/實際檢查/手術日期時間"
+      },
+      {
+        "id": "Procedure.performed[x].end",
+        "path": "Procedure.performed[x].end",
+        "short": "LABD.h20",
+        "definition": "The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was created. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.\r\n採檢/實際檢查/手術日期時間",
+        "min": 1
+      },
+      {
+        "id": "Procedure.recorder",
+        "path": "Procedure.recorder",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.asserter",
+        "path": "Procedure.asserter",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.performer",
+        "path": "Procedure.performer",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.location",
+        "path": "Procedure.location",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.reasonCode",
+        "path": "Procedure.reasonCode",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.reasonReference",
+        "path": "Procedure.reasonReference",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.bodySite",
+        "path": "Procedure.bodySite",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.outcome",
+        "path": "Procedure.outcome",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.report",
+        "path": "Procedure.report",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.complication",
+        "path": "Procedure.complication",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.complicationDetail",
+        "path": "Procedure.complicationDetail",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.followUp",
+        "path": "Procedure.followUp",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.note",
+        "path": "Procedure.note",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.focalDevice",
+        "path": "Procedure.focalDevice",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.usedReference",
+        "path": "Procedure.usedReference",
+        "max": "0"
+      },
+      {
+        "id": "Procedure.usedCode",
+        "path": "Procedure.usedCode",
+        "max": "0"
+      }
+    ]
+  }
+}

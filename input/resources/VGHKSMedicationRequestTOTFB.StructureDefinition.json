@@ -1,0 +1,433 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSMedicationRequestTOTFB",
+  "name": "VGHKSMedicationRequestTOTFB",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "MedicationRequest",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/MedicationRequest",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "MedicationRequest.identifier.use",
+        "path": "MedicationRequest.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.identifier.type",
+        "path": "MedicationRequest.identifier.type",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.identifier.system",
+        "path": "MedicationRequest.identifier.system",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.identifier.value",
+        "path": "MedicationRequest.identifier.value",
+        "short": "TOTFB.p1",
+        "definition": "The portion of the identifier typically relevant to the user and which is unique within the context of the system.\r\n醫令序"
+      },
+      {
+        "id": "MedicationRequest.identifier.period",
+        "path": "MedicationRequest.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.identifier.assigner",
+        "path": "MedicationRequest.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.status",
+        "path": "MedicationRequest.status",
+        "short": "[active | on-hold | cancelled | completed | entered-in-error | stopped | draft | unknown]請輸入(completed)",
+        "fixedCode": "completed"
+      },
+      {
+        "id": "MedicationRequest.statusReason",
+        "path": "MedicationRequest.statusReason",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.intent",
+        "path": "MedicationRequest.intent",
+        "short": "[proposal | plan | order | original-order | reflex-order | filler-order | instance-order | option]請輸入(order)",
+        "fixedCode": "order"
+      },
+      {
+        "id": "MedicationRequest.category.coding.version",
+        "path": "MedicationRequest.category.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.category.coding.code",
+        "path": "MedicationRequest.category.coding.code",
+        "short": "TOTFB.p2"
+      },
+      {
+        "id": "MedicationRequest.category.coding.userSelected",
+        "path": "MedicationRequest.category.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.category.text",
+        "path": "MedicationRequest.category.text",
+        "short": "醫令類別",
+        "min": 1
+      },
+      {
+        "id": "MedicationRequest.priority",
+        "path": "MedicationRequest.priority",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.doNotPerform",
+        "path": "MedicationRequest.doNotPerform",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.reported[x]",
+        "path": "MedicationRequest.reported[x]",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.medication[x]",
+        "path": "MedicationRequest.medication[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.medication[x].coding.version",
+        "path": "MedicationRequest.medication[x].coding.version",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.medication[x].coding.code",
+        "path": "MedicationRequest.medication[x].coding.code",
+        "short": "TOTFB.p3",
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\n醫令代碼"
+      },
+      {
+        "id": "MedicationRequest.medication[x].coding.userSelected",
+        "path": "MedicationRequest.medication[x].coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.subject.reference",
+        "path": "MedicationRequest.subject.reference",
+        "short": "患者Resource Link",
+        "min": 1
+      },
+      {
+        "id": "MedicationRequest.subject.type",
+        "path": "MedicationRequest.subject.type",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.subject.identifier",
+        "path": "MedicationRequest.subject.identifier",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.subject.display",
+        "path": "MedicationRequest.subject.display",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.encounter",
+        "path": "MedicationRequest.encounter",
+        "min": 1
+      },
+      {
+        "id": "MedicationRequest.encounter.reference",
+        "path": "MedicationRequest.encounter.reference",
+        "short": "TOTFB看診紀錄 Resource Link",
+        "min": 1
+      },
+      {
+        "id": "MedicationRequest.encounter.type",
+        "path": "MedicationRequest.encounter.type",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.encounter.identifier",
+        "path": "MedicationRequest.encounter.identifier",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.encounter.display",
+        "path": "MedicationRequest.encounter.display",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.supportingInformation",
+        "path": "MedicationRequest.supportingInformation",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.authoredOn",
+        "path": "MedicationRequest.authoredOn",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.requester",
+        "path": "MedicationRequest.requester",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.performer",
+        "path": "MedicationRequest.performer",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.performerType.coding.code",
+        "path": "MedicationRequest.performerType.coding.code",
+        "short": "TOTFB.p8"
+      },
+      {
+        "id": "MedicationRequest.performerType.text",
+        "path": "MedicationRequest.performerType.text",
+        "short": "[會診科別]",
+        "min": 1
+      },
+      {
+        "id": "MedicationRequest.recorder",
+        "path": "MedicationRequest.recorder",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.reasonCode",
+        "path": "MedicationRequest.reasonCode",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.reasonReference",
+        "path": "MedicationRequest.reasonReference",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.instantiatesCanonical",
+        "path": "MedicationRequest.instantiatesCanonical",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.instantiatesUri",
+        "path": "MedicationRequest.instantiatesUri",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.basedOn",
+        "path": "MedicationRequest.basedOn",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.groupIdentifier",
+        "path": "MedicationRequest.groupIdentifier",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.courseOfTherapyType",
+        "path": "MedicationRequest.courseOfTherapyType",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.insurance",
+        "path": "MedicationRequest.insurance",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.note",
+        "path": "MedicationRequest.note",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.sequence",
+        "path": "MedicationRequest.dosageInstruction.sequence",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.text",
+        "path": "MedicationRequest.dosageInstruction.text",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.additionalInstruction",
+        "path": "MedicationRequest.dosageInstruction.additionalInstruction",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.patientInstruction",
+        "path": "MedicationRequest.dosageInstruction.patientInstruction",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.timing.event",
+        "path": "MedicationRequest.dosageInstruction.timing.event",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.timing.repeat",
+        "path": "MedicationRequest.dosageInstruction.timing.repeat",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.timing.code.coding.version",
+        "path": "MedicationRequest.dosageInstruction.timing.code.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.timing.code.coding.code",
+        "path": "MedicationRequest.dosageInstruction.timing.code.coding.code",
+        "short": "TOTFB.p6",
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\n(藥品)使用頻率"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.timing.code.coding.userSelected",
+        "path": "MedicationRequest.dosageInstruction.timing.code.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.asNeeded[x]",
+        "path": "MedicationRequest.dosageInstruction.asNeeded[x]",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.site.coding.version",
+        "path": "MedicationRequest.dosageInstruction.site.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.site.coding.code",
+        "path": "MedicationRequest.dosageInstruction.site.coding.code",
+        "short": "TOTFB.p7",
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\n給藥途徑/作用部位"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.site.coding.userSelected",
+        "path": "MedicationRequest.dosageInstruction.site.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.route",
+        "path": "MedicationRequest.dosageInstruction.route",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.method",
+        "path": "MedicationRequest.dosageInstruction.method",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.doseAndRate.type",
+        "path": "MedicationRequest.dosageInstruction.doseAndRate.type",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.doseAndRate.dose[x]",
+        "path": "MedicationRequest.dosageInstruction.doseAndRate.dose[x]",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.doseAndRate.dose[x].value",
+        "path": "MedicationRequest.dosageInstruction.doseAndRate.dose[x].value",
+        "short": "TOTFB.p5",
+        "definition": "The value of the measured amount. The value includes an implicit precision in the presentation of the value.\r\n藥品用量"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.doseAndRate.rate[x]",
+        "path": "MedicationRequest.dosageInstruction.doseAndRate.rate[x]",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.maxDosePerPeriod",
+        "path": "MedicationRequest.dosageInstruction.maxDosePerPeriod",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.maxDosePerAdministration",
+        "path": "MedicationRequest.dosageInstruction.maxDosePerAdministration",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dosageInstruction.maxDosePerLifetime",
+        "path": "MedicationRequest.dosageInstruction.maxDosePerLifetime",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dispenseRequest.initialFill",
+        "path": "MedicationRequest.dispenseRequest.initialFill",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dispenseRequest.dispenseInterval",
+        "path": "MedicationRequest.dispenseRequest.dispenseInterval",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dispenseRequest.validityPeriod.start",
+        "path": "MedicationRequest.dispenseRequest.validityPeriod.start",
+        "short": "TOTFB.p14",
+        "definition": "The start of the period. The boundary is inclusive.\r\n執行時間-起"
+      },
+      {
+        "id": "MedicationRequest.dispenseRequest.validityPeriod.end",
+        "path": "MedicationRequest.dispenseRequest.validityPeriod.end",
+        "short": "TOTFB.p15",
+        "definition": "The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was created. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.\r\n執行時間-迄"
+      },
+      {
+        "id": "MedicationRequest.dispenseRequest.numberOfRepeatsAllowed",
+        "path": "MedicationRequest.dispenseRequest.numberOfRepeatsAllowed",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dispenseRequest.quantity.value",
+        "path": "MedicationRequest.dispenseRequest.quantity.value",
+        "short": "TOTFB.p16",
+        "definition": "The value of the measured amount. The value includes an implicit precision in the presentation of the value.\r\n總量"
+      },
+      {
+        "id": "MedicationRequest.dispenseRequest.expectedSupplyDuration",
+        "path": "MedicationRequest.dispenseRequest.expectedSupplyDuration",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.dispenseRequest.performer",
+        "path": "MedicationRequest.dispenseRequest.performer",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.substitution",
+        "path": "MedicationRequest.substitution",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.priorPrescription",
+        "path": "MedicationRequest.priorPrescription",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.detectedIssue",
+        "path": "MedicationRequest.detectedIssue",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.eventHistory",
+        "path": "MedicationRequest.eventHistory",
+        "max": "0"
+      }
+    ]
+  }
+}

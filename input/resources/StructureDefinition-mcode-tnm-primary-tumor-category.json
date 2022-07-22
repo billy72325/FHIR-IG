@@ -120,11 +120,6 @@
         "min": 1
       },
       {
-        "id": "Observation.category.coding",
-        "path": "Observation.category.coding",
-        "min": 1
-      },
-      {
         "id": "Observation.category.coding.code",
         "path": "Observation.category.coding.code",
         "short": "LF.ajcc_ed",
@@ -145,10 +140,10 @@
       {
         "id": "Observation.code.coding.code",
         "path": "Observation.code.coding.code",
-        "short": "LF.ct, LF.pt",
+        "short": "LF.ct/LF.pt",
         "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\n臨床T對應之code-21905-5\r\n病理T對應之code-21899-0",
         "min": 1,
-        "fixedCode": "21905-5;21899-0"
+        "fixedCode": "21905-5/21899-0"
       },
       {
         "id": "Observation.code.text",
@@ -193,14 +188,13 @@
       {
         "id": "Observation.focus.reference",
         "path": "Observation.focus.reference",
-        "min": 1,
-        "fixedString": "Condition LF-Primary Cancer Profile 的 Link"
+        "short": "Condition LF-Primary Cancer Profile Link",
+        "min": 1
       },
       {
         "id": "Observation.value[x]",
         "path": "Observation.value[x]",
         "short": "使用valueCodeableConcept",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
@@ -209,14 +203,9 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x].coding",
-        "path": "Observation.value[x].coding",
-        "min": 1
-      },
-      {
         "id": "Observation.value[x].coding.code",
         "path": "Observation.value[x].coding.code",
-        "short": "LF.ct, LF.pt",
+        "short": "LF.ct/LF.pt",
         "min": 1
       },
       {

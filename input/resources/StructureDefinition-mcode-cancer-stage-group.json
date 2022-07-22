@@ -177,14 +177,9 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.value[x].coding",
-        "path": "Observation.value[x].coding",
-        "min": 1
-      },
-      {
         "id": "Observation.value[x].coding.code",
         "path": "Observation.value[x].coding.code",
-        "short": "LF.cstage, LF.pstage",
+        "short": "LF.cstage/LF.pstage",
         "min": 1
       },
       {
@@ -327,7 +322,7 @@
       {
         "id": "Observation.component.value[x].coding.code",
         "path": "Observation.component.value[x].coding.code",
-        "short": "LF.cdescr, LF.pdescr",
+        "short": "LF.cdescr/LF.pdescr",
         "min": 1
       },
       {

@@ -1,0 +1,156 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSConditionTOTFB",
+  "name": "VGHKSConditionTOTFB",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Condition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Condition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Condition.identifier",
+        "path": "Condition.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Condition.clinicalStatus",
+        "path": "Condition.clinicalStatus",
+        "max": "0"
+      },
+      {
+        "id": "Condition.verificationStatus",
+        "path": "Condition.verificationStatus",
+        "max": "0"
+      },
+      {
+        "id": "Condition.category",
+        "path": "Condition.category",
+        "max": "0"
+      },
+      {
+        "id": "Condition.severity",
+        "path": "Condition.severity",
+        "max": "0"
+      },
+      {
+        "id": "Condition.code.coding.version",
+        "path": "Condition.code.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Condition.code.coding.code",
+        "path": "Condition.code.coding.code",
+        "short": "TOTFB.d25/TOTFB.d26/TOTFB.d27/TOTFB.d28/TOTFB.d29",
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\nTOTFA.d25對應至主診斷\r\nTOTFA.d26對應至次診斷代碼(一)\r\nTOTFA.d27對應至次診斷代碼(二)\r\nTOTFA.d28對應至次診斷代碼(三)\r\nTOTFA.d29對應至次診斷代碼(四)"
+      },
+      {
+        "id": "Condition.code.coding.userSelected",
+        "path": "Condition.code.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Condition.code.text",
+        "path": "Condition.code.text",
+        "short": "[主診斷|次診斷代碼(一)|次診斷代碼(二)|次診斷代碼(三)|次診斷代碼(四)]",
+        "definition": "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.\r\n請擇一使用",
+        "min": 1
+      },
+      {
+        "id": "Condition.bodySite",
+        "path": "Condition.bodySite",
+        "max": "0"
+      },
+      {
+        "id": "Condition.subject.reference",
+        "path": "Condition.subject.reference",
+        "short": "患者Resource Link",
+        "min": 1
+      },
+      {
+        "id": "Condition.subject.type",
+        "path": "Condition.subject.type",
+        "max": "0"
+      },
+      {
+        "id": "Condition.subject.identifier",
+        "path": "Condition.subject.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Condition.subject.display",
+        "path": "Condition.subject.display",
+        "max": "0"
+      },
+      {
+        "id": "Condition.encounter",
+        "path": "Condition.encounter",
+        "min": 1
+      },
+      {
+        "id": "Condition.encounter.reference",
+        "path": "Condition.encounter.reference",
+        "short": "TOTFB看診紀錄 Resource Link",
+        "min": 1
+      },
+      {
+        "id": "Condition.encounter.type",
+        "path": "Condition.encounter.type",
+        "max": "0"
+      },
+      {
+        "id": "Condition.encounter.identifier",
+        "path": "Condition.encounter.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Condition.encounter.display",
+        "path": "Condition.encounter.display",
+        "max": "0"
+      },
+      {
+        "id": "Condition.onset[x]",
+        "path": "Condition.onset[x]",
+        "max": "0"
+      },
+      {
+        "id": "Condition.abatement[x]",
+        "path": "Condition.abatement[x]",
+        "max": "0"
+      },
+      {
+        "id": "Condition.recordedDate",
+        "path": "Condition.recordedDate",
+        "max": "0"
+      },
+      {
+        "id": "Condition.recorder",
+        "path": "Condition.recorder",
+        "max": "0"
+      },
+      {
+        "id": "Condition.asserter",
+        "path": "Condition.asserter",
+        "max": "0"
+      },
+      {
+        "id": "Condition.stage",
+        "path": "Condition.stage",
+        "max": "0"
+      },
+      {
+        "id": "Condition.evidence",
+        "path": "Condition.evidence",
+        "max": "0"
+      },
+      {
+        "id": "Condition.note",
+        "path": "Condition.note",
+        "max": "0"
+      }
+    ]
+  }
+}

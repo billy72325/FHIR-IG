@@ -1,0 +1,243 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSEncounterLABM",
+  "name": "VGHKSEncounterLABM",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Encounter",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Encounter",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Encounter.identifier.use",
+        "path": "Encounter.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.identifier.type",
+        "path": "Encounter.identifier.type",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.identifier.system",
+        "path": "Encounter.identifier.system",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.identifier.value",
+        "path": "Encounter.identifier.value",
+        "short": "LABM.h8",
+        "definition": "The portion of the identifier typically relevant to the user and which is unique within the context of the system.\r\n流水編號"
+      },
+      {
+        "id": "Encounter.identifier.period",
+        "path": "Encounter.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.identifier.assigner",
+        "path": "Encounter.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.status",
+        "path": "Encounter.status",
+        "short": "[planned | arrived | triaged | in-progress | onleave | finished | cancelled +]請輸入(finished)",
+        "fixedCode": "finished"
+      },
+      {
+        "id": "Encounter.statusHistory",
+        "path": "Encounter.statusHistory",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.class.system",
+        "path": "Encounter.class.system",
+        "min": 1,
+        "fixedUri": "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode"
+      },
+      {
+        "id": "Encounter.class.version",
+        "path": "Encounter.class.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.class.code",
+        "path": "Encounter.class.code",
+        "min": 1,
+        "fixedCode": "OBSENC"
+      },
+      {
+        "id": "Encounter.class.display",
+        "path": "Encounter.class.display",
+        "short": "[observation encounter]",
+        "min": 1
+      },
+      {
+        "id": "Encounter.class.userSelected",
+        "path": "Encounter.class.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.classHistory",
+        "path": "Encounter.classHistory",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.type.coding.version",
+        "path": "Encounter.type.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.type.coding.code",
+        "path": "Encounter.type.coding.code",
+        "short": "LABM.h1, LABM.h7",
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\nLABM.h1對應至type[0].coding[0].code\r\nLABM.h7對應至type[1].coding[0].code"
+      },
+      {
+        "id": "Encounter.type.coding.userSelected",
+        "path": "Encounter.type.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.type.text",
+        "path": "Encounter.type.text",
+        "short": "[報告類別, 案件分類]",
+        "definition": "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.\r\ntype[0].text請輸入報告類別\r\ntype[1].text請輸入案件分類",
+        "min": 1
+      },
+      {
+        "id": "Encounter.serviceType.coding.version",
+        "path": "Encounter.serviceType.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.serviceType.coding.code",
+        "path": "Encounter.serviceType.coding.code",
+        "short": "LABM.h3"
+      },
+      {
+        "id": "Encounter.serviceType.coding.userSelected",
+        "path": "Encounter.serviceType.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.serviceType.text",
+        "path": "Encounter.serviceType.text",
+        "short": "[醫事類別]",
+        "min": 1
+      },
+      {
+        "id": "Encounter.priority",
+        "path": "Encounter.priority",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.subject",
+        "path": "Encounter.subject",
+        "min": 1
+      },
+      {
+        "id": "Encounter.subject.reference",
+        "path": "Encounter.subject.reference",
+        "short": "患者Resource Link",
+        "min": 1
+      },
+      {
+        "id": "Encounter.subject.type",
+        "path": "Encounter.subject.type",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.subject.identifier",
+        "path": "Encounter.subject.identifier",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.subject.display",
+        "path": "Encounter.subject.display",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.episodeOfCare",
+        "path": "Encounter.episodeOfCare",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.basedOn",
+        "path": "Encounter.basedOn",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.participant",
+        "path": "Encounter.participant",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.appointment",
+        "path": "Encounter.appointment",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.period.start",
+        "path": "Encounter.period.start",
+        "short": "LABM.h11/LABM.h13",
+        "definition": "The start of the period. The boundary is inclusive.\r\n請擇一使用\r\nLABM.h11對應至就醫日期\r\nLABM.h13對應至入院年月日"
+      },
+      {
+        "id": "Encounter.period.end",
+        "path": "Encounter.period.end",
+        "short": "LABM.h12/LABM.h14",
+        "definition": "The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was created. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.\r\n請擇一使用\r\nLABM.h12對應至治療結束日期\r\nLABM.h14對應至出院年月日"
+      },
+      {
+        "id": "Encounter.length",
+        "path": "Encounter.length",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.reasonCode",
+        "path": "Encounter.reasonCode",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.reasonReference",
+        "path": "Encounter.reasonReference",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.diagnosis",
+        "path": "Encounter.diagnosis",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.account",
+        "path": "Encounter.account",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.hospitalization",
+        "path": "Encounter.hospitalization",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.location",
+        "path": "Encounter.location",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.serviceProvider",
+        "path": "Encounter.serviceProvider",
+        "max": "0"
+      },
+      {
+        "id": "Encounter.partOf",
+        "path": "Encounter.partOf",
+        "max": "0"
+      }
+    ]
+  }
+}

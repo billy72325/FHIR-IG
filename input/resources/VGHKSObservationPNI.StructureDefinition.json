@@ -33,6 +33,7 @@
       {
         "id": "Observation.subject.reference",
         "path": "Observation.subject.reference",
+        "short": "患者 Resource Link",
         "min": 1
       },
       {
@@ -40,7 +41,6 @@
         "path": "Observation.value[x]",
         "short": "LF.pni",
         "definition": "The information determined as a result of making the observation, if the information has a simple value.\r\n請使用valueCodeableConcept",
-        "min": 1,
         "type": [
           {
             "code": "CodeableConcept"
@@ -52,6 +52,11 @@
         "path": "Observation.value[x].coding.code",
         "short": "LF.pni",
         "min": 1
+      },
+      {
+        "id": "Observation.component",
+        "path": "Observation.component",
+        "max": "0"
       },
       {
         "id": "Observation.component.referenceRange",

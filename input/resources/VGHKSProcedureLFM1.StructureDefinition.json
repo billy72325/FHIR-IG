@@ -1,10 +1,10 @@
 {
   "resourceType": "StructureDefinition",
-  "url": "http://standard-interoperability-lab.com/fhir/StructureDefinition/VGHKSProcedureLFM3",
-  "name": "VGHKSProcedureLFM3",
-  "title": "VGHKS Procedure LF M3 Profile",
+  "id": "VGHKS-Procedure-LF-M1",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSProcedureLFM1",
+  "name": "VGHKSProcedureLFM1",
+  "title": "VGHKS Procedure LF M1 Profile",
   "status": "draft",
-  "description": "此profiles用於免疫治療(LFm3)",
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -16,7 +16,7 @@
       {
         "id": "Procedure.status",
         "path": "Procedure.status",
-        "short": "[preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown]請填入(completed)",
+        "short": "[preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown](請輸入 completed )",
         "fixedCode": "completed"
       },
       {
@@ -27,13 +27,13 @@
       {
         "id": "Procedure.code.coding.code",
         "path": "Procedure.code.coding.code",
-        "short": "LF.immu_h",
+        "short": "LF.chem_h",
         "min": 1
       },
       {
         "id": "Procedure.code.text",
         "path": "Procedure.code.text",
-        "short": "[申報醫院免疫治療]",
+        "short": "[申報醫院化學治療]",
         "min": 1
       },
       {
@@ -45,36 +45,41 @@
       {
         "id": "Procedure.performed[x]",
         "path": "Procedure.performed[x]",
-        "short": "LF.dimmu",
-        "definition": "Estimated or actual date, date-time, period, or age when the procedure was performed.  Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.\r\n請使用performedDateTime\r\n申報醫院免疫治療開始日期",
+        "short": "請使用performedPeriod",
         "type": [
           {
-            "code": "dateTime"
+            "code": "Period"
           }
         ]
       },
       {
+        "id": "Procedure.performed[x].start",
+        "path": "Procedure.performed[x].start",
+        "short": "LF.dsyt",
+        "definition": "The start of the period. The boundary is inclusive.\r\n全身性治療開始日期"
+      },
+      {
+        "id": "Procedure.performed[x].end",
+        "path": "Procedure.performed[x].end",
+        "short": "LF.dchem",
+        "definition": "The end of the period. If the end of the period is missing, it means no end was known or planned at the time the instance was created. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.\r\n申報醫院化學治療開始日期"
+      },
+      {
         "id": "Procedure.reasonCode",
         "path": "Procedure.reasonCode",
-        "min": 1,
-        "max": "1"
+        "min": 1
       },
       {
         "id": "Procedure.reasonCode.coding.code",
         "path": "Procedure.reasonCode.coding.code",
-        "short": "LF.immu_o",
+        "short": "LF.chem_o",
         "min": 1
       },
       {
         "id": "Procedure.reasonCode.text",
         "path": "Procedure.reasonCode.text",
-        "short": "[外院免疫治療]",
+        "short": "[外院化學治療]",
         "min": 1
-      },
-      {
-        "id": "Procedure.bodySite",
-        "path": "Procedure.bodySite",
-        "max": "0"
       }
     ]
   }

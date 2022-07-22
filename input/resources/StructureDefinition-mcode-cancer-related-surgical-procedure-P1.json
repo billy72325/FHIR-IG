@@ -111,11 +111,6 @@
         "min": 1
       },
       {
-        "id": "Procedure.statusReason.coding",
-        "path": "Procedure.statusReason.coding",
-        "min": 1
-      },
-      {
         "id": "Procedure.statusReason.coding.code",
         "path": "Procedure.statusReason.coding.code",
         "short": "LF.noop",
@@ -146,6 +141,11 @@
         "min": 1
       },
       {
+        "id": "Procedure.category.coding.system",
+        "path": "Procedure.category.coding.system",
+        "definition": "The identification of the code system that defines the meaning of the symbol in the code.\r\ncategory.coding[0].system請填入http://snomed.info/sct"
+      },
+      {
         "id": "Procedure.category.coding.code",
         "path": "Procedure.category.coding.code",
         "short": "LF.misurgery",
@@ -155,24 +155,19 @@
       {
         "id": "Procedure.category.coding.display",
         "path": "Procedure.category.coding.display",
-        "short": "[Surgical procedure|微創手術]",
+        "short": "[Surgical procedure,微創手術]",
         "definition": "A representation of the meaning of the code in the system, following the rules of the system.\r\ncoding[0].display請填入Surgical procedure\r\ncoding[1].display請填入微創手術",
         "min": 1
       },
       {
         "id": "Procedure.category.coding.userSelected",
         "path": "Procedure.category.coding.userSelected",
-        "definition": "Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).\r\ncoding[0].userSelected請填入True\r\ncoding[1].userSelected請填入False",
+        "definition": "Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).\r\ncoding[0].userSelected請填入False\r\ncoding[1].userSelected請填入True",
         "min": 1
       },
       {
         "id": "Procedure.code",
         "path": "Procedure.code",
-        "min": 1
-      },
-      {
-        "id": "Procedure.code.coding",
-        "path": "Procedure.code.coding",
         "min": 1
       },
       {
@@ -196,8 +191,8 @@
       {
         "id": "Procedure.performed[x]",
         "path": "Procedure.performed[x]",
-        "short": "原發部位最確切的手術切除日期",
-        "definition": "Estimated or actual date, date-time, period, or age when the procedure was performed.  Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.\r\n請使用performedDateTime。\r\n(LF.dop_mds)",
+        "short": "LF.dop_mds",
+        "definition": "Estimated or actual date, date-time, period, or age when the procedure was performed.  Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.\r\n請使用performedDateTime。\r\n原發部位最確切的手術切除日期",
         "min": 1,
         "type": [
           {
@@ -215,11 +210,6 @@
         "path": "Procedure.reasonCode",
         "min": 1,
         "mustSupport": true
-      },
-      {
-        "id": "Procedure.reasonCode.coding",
-        "path": "Procedure.reasonCode.coding",
-        "min": 1
       },
       {
         "id": "Procedure.reasonCode.coding.code",
@@ -306,11 +296,6 @@
       {
         "id": "Procedure.outcome",
         "path": "Procedure.outcome",
-        "min": 1
-      },
-      {
-        "id": "Procedure.outcome.coding",
-        "path": "Procedure.outcome.coding",
         "min": 1
       },
       {

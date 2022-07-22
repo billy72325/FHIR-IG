@@ -51,9 +51,8 @@
       {
         "id": "Procedure.performed[x]",
         "path": "Procedure.performed[x]",
-        "short": "申報醫院荷爾蒙/類固醇治療開始日期",
-        "definition": "Estimated or actual date, date-time, period, or age when the procedure was performed.  Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.\r\n\r\n請使用performedDateTime\r\n對應代號(LF.dhorm)",
-        "min": 1,
+        "short": "LF.dhorm",
+        "definition": "Estimated or actual date, date-time, period, or age when the procedure was performed.  Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.\r\n請使用performedDateTime\r\n申報醫院荷爾蒙/類固醇治療開始日期",
         "type": [
           {
             "code": "dateTime"

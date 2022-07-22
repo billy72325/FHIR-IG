@@ -1,0 +1,92 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSOrganizationLABM",
+  "name": "VGHKSOrganizationLABM",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Organization",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Organization",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Organization.identifier.use",
+        "path": "Organization.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "Organization.identifier.type",
+        "path": "Organization.identifier.type",
+        "max": "0"
+      },
+      {
+        "id": "Organization.identifier.system",
+        "path": "Organization.identifier.system",
+        "max": "0"
+      },
+      {
+        "id": "Organization.identifier.value",
+        "path": "Organization.identifier.value",
+        "short": "LABM.h2",
+        "definition": "The portion of the identifier typically relevant to the user and which is unique within the context of the system.\r\n醫事機構代碼"
+      },
+      {
+        "id": "Organization.identifier.period",
+        "path": "Organization.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "Organization.identifier.assigner",
+        "path": "Organization.identifier.assigner",
+        "max": "0"
+      },
+      {
+        "id": "Organization.active",
+        "path": "Organization.active",
+        "max": "0"
+      },
+      {
+        "id": "Organization.type",
+        "path": "Organization.type",
+        "max": "0"
+      },
+      {
+        "id": "Organization.name",
+        "path": "Organization.name",
+        "max": "0"
+      },
+      {
+        "id": "Organization.alias",
+        "path": "Organization.alias",
+        "max": "0"
+      },
+      {
+        "id": "Organization.telecom",
+        "path": "Organization.telecom",
+        "max": "0"
+      },
+      {
+        "id": "Organization.address",
+        "path": "Organization.address",
+        "max": "0"
+      },
+      {
+        "id": "Organization.partOf",
+        "path": "Organization.partOf",
+        "max": "0"
+      },
+      {
+        "id": "Organization.contact",
+        "path": "Organization.contact",
+        "max": "0"
+      },
+      {
+        "id": "Organization.endpoint",
+        "path": "Organization.endpoint",
+        "max": "0"
+      }
+    ]
+  }
+}

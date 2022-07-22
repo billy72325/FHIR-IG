@@ -25,11 +25,6 @@
         "min": 1
       },
       {
-        "id": "Procedure.code.coding",
-        "path": "Procedure.code.coding",
-        "min": 1
-      },
-      {
         "id": "Procedure.code.coding.code",
         "path": "Procedure.code.coding.code",
         "short": "LF.htep_h",
@@ -38,7 +33,7 @@
       {
         "id": "Procedure.code.text",
         "path": "Procedure.code.text",
-        "short": "[骨隨/幹細胞移植或內分泌處置]",
+        "short": "[骨髓/幹細胞移植或內分泌處置]",
         "min": 1
       },
       {
@@ -50,9 +45,8 @@
       {
         "id": "Procedure.performed[x]",
         "path": "Procedure.performed[x]",
-        "short": "申報醫院骨隨/幹細胞移植或內分泌處置日期",
-        "definition": "Estimated or actual date, date-time, period, or age when the procedure was performed.  Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.\r\n請使用performedDateTime\r\n對應代號(LF.dhtep)",
-        "min": 1,
+        "short": "LF.dhtep",
+        "definition": "Estimated or actual date, date-time, period, or age when the procedure was performed.  Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.\r\n請使用performedDateTime\r\n申報醫院骨髓/幹細胞移植或內分泌處置日期",
         "type": [
           {
             "code": "dateTime"

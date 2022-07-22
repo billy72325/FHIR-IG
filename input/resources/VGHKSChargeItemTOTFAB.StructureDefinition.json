@@ -1,0 +1,181 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://example.org/fhir/StructureDefinition/VGHKSChargeItemTOTFAB",
+  "name": "VGHKSChargeItemTOTFAB",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "ChargeItem",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ChargeItem",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ChargeItem.identifier",
+        "path": "ChargeItem.identifier",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.definitionUri",
+        "path": "ChargeItem.definitionUri",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.definitionCanonical",
+        "path": "ChargeItem.definitionCanonical",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.status",
+        "path": "ChargeItem.status",
+        "short": "[planned | billable | not-billable | aborted | billed | entered-in-error | unknown]請輸入(billed)",
+        "fixedCode": "billed"
+      },
+      {
+        "id": "ChargeItem.partOf",
+        "path": "ChargeItem.partOf",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.code.coding.version",
+        "path": "ChargeItem.code.coding.version",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.code.coding.code",
+        "path": "ChargeItem.code.coding.code",
+        "short": "TOTFB.t5",
+        "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\n申報類別"
+      },
+      {
+        "id": "ChargeItem.code.coding.userSelected",
+        "path": "ChargeItem.code.coding.userSelected",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.subject.reference",
+        "path": "ChargeItem.subject.reference",
+        "short": "患者Resource Link",
+        "min": 1
+      },
+      {
+        "id": "ChargeItem.subject.type",
+        "path": "ChargeItem.subject.type",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.subject.identifier",
+        "path": "ChargeItem.subject.identifier",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.subject.display",
+        "path": "ChargeItem.subject.display",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.context",
+        "path": "ChargeItem.context",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.occurrence[x]",
+        "path": "ChargeItem.occurrence[x]",
+        "short": "TOTFB.t6",
+        "definition": "Date/time(s) or duration when the charged service was applied.\r\n申報日期",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "ChargeItem.performer",
+        "path": "ChargeItem.performer",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.performingOrganization",
+        "path": "ChargeItem.performingOrganization",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.requestingOrganization",
+        "path": "ChargeItem.requestingOrganization",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.costCenter",
+        "path": "ChargeItem.costCenter",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.quantity",
+        "path": "ChargeItem.quantity",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.bodysite",
+        "path": "ChargeItem.bodysite",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.factorOverride",
+        "path": "ChargeItem.factorOverride",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.priceOverride",
+        "path": "ChargeItem.priceOverride",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.overrideReason",
+        "path": "ChargeItem.overrideReason",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.enterer",
+        "path": "ChargeItem.enterer",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.enteredDate",
+        "path": "ChargeItem.enteredDate",
+        "short": "TOTFB.t3",
+        "definition": "Date the charge item was entered.\r\n費用年月"
+      },
+      {
+        "id": "ChargeItem.reason",
+        "path": "ChargeItem.reason",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.service",
+        "path": "ChargeItem.service",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.product[x]",
+        "path": "ChargeItem.product[x]",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.account",
+        "path": "ChargeItem.account",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.note",
+        "path": "ChargeItem.note",
+        "max": "0"
+      },
+      {
+        "id": "ChargeItem.supportingInformation",
+        "path": "ChargeItem.supportingInformation",
+        "max": "0"
+      }
+    ]
+  }
+}

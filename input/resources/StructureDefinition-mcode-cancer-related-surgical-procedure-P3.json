@@ -97,8 +97,13 @@
         "id": "Procedure.identifier.value",
         "path": "Procedure.identifier.value",
         "short": "[Cancer-Related Surgical Procedure]",
-        "min": 1,
-        "fixedString": "Cancer-Related Surgical Procedure"
+        "min": 1
+      },
+      {
+        "id": "Procedure.status",
+        "path": "Procedure.status",
+        "short": "[preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown]請輸入(completed)",
+        "fixedCode": "completed"
       },
       {
         "id": "Procedure.category",
@@ -136,11 +141,6 @@
         "min": 1
       },
       {
-        "id": "Procedure.code.coding",
-        "path": "Procedure.code.coding",
-        "min": 1
-      },
-      {
         "id": "Procedure.code.coding.code",
         "path": "Procedure.code.coding.code",
         "short": "LF.opother_h",
@@ -159,20 +159,10 @@
         "min": 1
       },
       {
-        "id": "Procedure.performed[x]",
-        "path": "Procedure.performed[x]",
-        "short": "首次療程開始日期 (LF.dtrt_1st)"
-      },
-      {
         "id": "Procedure.reasonCode",
         "path": "Procedure.reasonCode",
         "min": 1,
         "mustSupport": true
-      },
-      {
-        "id": "Procedure.reasonCode.coding",
-        "path": "Procedure.reasonCode.coding",
-        "min": 1
       },
       {
         "id": "Procedure.reasonCode.coding.code",

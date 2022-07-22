@@ -152,16 +152,6 @@
         "max": "0"
       },
       {
-        "id": "Condition.category",
-        "path": "Condition.category",
-        "min": 3
-      },
-      {
-        "id": "Condition.category.coding",
-        "path": "Condition.category.coding",
-        "min": 1
-      },
-      {
         "id": "Condition.category.coding.code",
         "path": "Condition.category.coding.code",
         "short": "LF.class, LF.class_d, LF.class_t",
@@ -170,7 +160,7 @@
       {
         "id": "Condition.category.text",
         "path": "Condition.category.text",
-        "short": "[個案分類|診斷狀態分類|治療狀態分類]",
+        "short": "[個案分類,診斷狀態分類,治療狀態分類]",
         "min": 1
       },
       {
@@ -178,11 +168,6 @@
         "path": "Condition.bodySite",
         "min": 2,
         "mustSupport": true
-      },
-      {
-        "id": "Condition.bodySite.coding",
-        "path": "Condition.bodySite.coding",
-        "min": 1
       },
       {
         "id": "Condition.bodySite.coding.code",
@@ -194,7 +179,7 @@
         "id": "Condition.bodySite.text",
         "path": "Condition.bodySite.text",
         "min": 1,
-        "fixedString": "[原發部位 | 側性]"
+        "fixedString": "[原發部位,側性]"
       },
       {
         "id": "Condition.subject.reference",
@@ -206,7 +191,6 @@
         "id": "Condition.onset[x]",
         "path": "Condition.onset[x]",
         "short": "診斷年齡，使用onsetAge (LF.age)",
-        "definition": "Estimated or actual date or date-time  the condition began, in the opinion of the clinician.\r\n診斷年齡，使用onsetAge (LF.age)",
         "min": 1,
         "type": [
           {
@@ -215,10 +199,16 @@
         ]
       },
       {
+        "id": "Condition.onset[x].value",
+        "path": "Condition.onset[x].value",
+        "short": "LF.age"
+      },
+      {
         "id": "Condition.onset[x].unit",
         "path": "Condition.onset[x].unit",
         "short": "[years]",
-        "min": 1
+        "min": 1,
+        "fixedString": "years"
       },
       {
         "id": "Condition.onset[x].system",
@@ -235,8 +225,8 @@
       {
         "id": "Condition.recordedDate",
         "path": "Condition.recordedDate",
-        "short": "首次就診日期 (LF.dcont)",
-        "min": 1
+        "short": "LF.dcont",
+        "definition": "The recordedDate represents when this particular Condition record was created in the system, which is often a system-generated date.\r\n首次就診日期"
       },
       {
         "id": "Condition.stage",
@@ -247,13 +237,7 @@
       {
         "id": "Condition.stage.summary",
         "path": "Condition.stage.summary",
-        "definition": "In mCODE, staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the stage group MAY appear in this element, copied from the CancerStageGroup, but mCODE Data Senders and Receivers MAY ignore it.",
-        "min": 1
-      },
-      {
-        "id": "Condition.stage.summary.coding",
-        "path": "Condition.stage.summary.coding",
-        "min": 1
+        "definition": "In mCODE, staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the stage group MAY appear in this element, copied from the CancerStageGroup, but mCODE Data Senders and Receivers MAY ignore it."
       },
       {
         "id": "Condition.stage.summary.coding.code",
@@ -264,7 +248,7 @@
       {
         "id": "Condition.stage.summary.text",
         "path": "Condition.stage.summary.text",
-        "short": "{臨床分級/分化 | 病理分級/分化]",
+        "short": "[臨床分級/分化,病理分級/分化]",
         "min": 1
       },
       {
@@ -288,17 +272,6 @@
       {
         "id": "Condition.evidence",
         "path": "Condition.evidence",
-        "short": "組織類型/性態碼",
-        "min": 1
-      },
-      {
-        "id": "Condition.evidence.code",
-        "path": "Condition.evidence.code",
-        "min": 2
-      },
-      {
-        "id": "Condition.evidence.code.coding",
-        "path": "Condition.evidence.code.coding",
         "min": 1
       },
       {
@@ -310,8 +283,8 @@
       {
         "id": "Condition.evidence.code.text",
         "path": "Condition.evidence.code.text",
-        "min": 1,
-        "fixedString": "[組織類型|性態碼]"
+        "short": "[組織類型,性態碼]",
+        "min": 1
       },
       {
         "id": "Condition.note",
