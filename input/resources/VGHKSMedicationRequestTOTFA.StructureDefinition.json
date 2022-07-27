@@ -14,8 +14,34 @@
   "differential": {
     "element": [
       {
-        "id": "MedicationRequest.identifier",
-        "path": "MedicationRequest.identifier",
+        "id": "MedicationRequest.identifier.use",
+        "path": "MedicationRequest.identifier.use",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.identifier.type",
+        "path": "MedicationRequest.identifier.type",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.identifier.system",
+        "path": "MedicationRequest.identifier.system",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.identifier.value",
+        "path": "MedicationRequest.identifier.value",
+        "short": "TOTFA.p13",
+        "definition": "The portion of the identifier typically relevant to the user and which is unique within the context of the system.\r\n醫令序"
+      },
+      {
+        "id": "MedicationRequest.identifier.period",
+        "path": "MedicationRequest.identifier.period",
+        "max": "0"
+      },
+      {
+        "id": "MedicationRequest.identifier.assigner",
+        "path": "MedicationRequest.identifier.assigner",
         "max": "0"
       },
       {
@@ -341,9 +367,9 @@
         "max": "0"
       },
       {
-        "id": "MedicationRequest.dispenseRequest.quantity",
-        "path": "MedicationRequest.dispenseRequest.quantity",
-        "max": "0"
+        "id": "MedicationRequest.dispenseRequest.quantity.value",
+        "path": "MedicationRequest.dispenseRequest.quantity.value",
+        "short": "TOTFA.p10"
       },
       {
         "id": "MedicationRequest.dispenseRequest.expectedSupplyDuration",

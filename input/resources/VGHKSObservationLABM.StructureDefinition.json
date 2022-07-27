@@ -163,7 +163,12 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
-        "max": "0"
+        "short": "LABM.r10",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
       },
       {
         "id": "Observation.issued",

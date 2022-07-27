@@ -125,15 +125,7 @@
       {
         "id": "Procedure.category",
         "path": "Procedure.category",
-        "min": 1,
-        "patternCodeableConcept": {
-          "coding": [
-            {
-              "system": "http://snomed.info/sct",
-              "code": "387713003"
-            }
-          ]
-        }
+        "min": 1
       },
       {
         "id": "Procedure.category.coding",
@@ -148,7 +140,7 @@
       {
         "id": "Procedure.category.coding.code",
         "path": "Procedure.category.coding.code",
-        "short": "LF.misurgery",
+        "short": "[387713003],LF.misurgery",
         "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\ncoding[0].code請填入387713003",
         "min": 1
       },
@@ -162,6 +154,7 @@
       {
         "id": "Procedure.category.coding.userSelected",
         "path": "Procedure.category.coding.userSelected",
+        "short": "[False,True]",
         "definition": "Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).\r\ncoding[0].userSelected請填入False\r\ncoding[1].userSelected請填入True",
         "min": 1
       },

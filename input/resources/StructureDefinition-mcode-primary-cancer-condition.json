@@ -252,24 +252,6 @@
         "min": 1
       },
       {
-        "id": "Condition.stage.assessment",
-        "path": "Condition.stage.assessment",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-stage-group"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Condition.stage.type",
-        "path": "Condition.stage.type",
-        "short": "Staging system used.",
-        "definition": "In mCODE, staging information MUST be captured in an Observation that conforms to the CancerStageGroup profile. For convenience, the staging system MAY appear in this element, but mCODE Data Senders and Receivers MAY ignore it."
-      },
-      {
         "id": "Condition.evidence",
         "path": "Condition.evidence",
         "min": 1
@@ -287,14 +269,9 @@
         "min": 1
       },
       {
-        "id": "Condition.note",
-        "path": "Condition.note",
-        "short": "癌症發生順序號碼"
-      },
-      {
         "id": "Condition.note.text",
         "path": "Condition.note.text",
-        "short": "癌症發生序號(LF.sequence)"
+        "short": "LF.sequence"
       }
     ]
   }

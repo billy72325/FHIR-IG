@@ -202,7 +202,7 @@
       {
         "id": "Procedure.extension:ExtensionRTH.extension:totalDoseDelivered.value[x].system",
         "path": "Procedure.extension.extension.value[x].system",
-        "short": "LF.rth_dose"
+        "short": "[最高放射劑量臨床標靶體積劑量]"
       },
       {
         "id": "Procedure.extension:ExtensionRTH.extension:fractionsDelivered",
@@ -363,13 +363,13 @@
           ],
           "rules": "open"
         },
-        "min": 1
+        "min": 0
       },
       {
         "id": "Procedure.extension:ExtensionORT.extension:volume",
         "path": "Procedure.extension.extension",
         "sliceName": "volume",
-        "min": 1
+        "min": 0
       },
       {
         "id": "Procedure.extension:ExtensionORT.extension:volume.value[x].reference",
@@ -464,14 +464,12 @@
       {
         "id": "Procedure.code.coding",
         "path": "Procedure.code.coding",
-        "short": "LF.srs, LF.sls",
-        "definition": "A reference to a code defined by a terminology system.\r\n\r\ncoding[0]與coding[1]為放射治療與手術順序(LF.srs);\r\ncoding[2]為區域治療與全身性治療順序(LF.sls)",
         "max": "3"
       },
       {
         "id": "Procedure.code.coding.code",
         "path": "Procedure.code.coding.code",
-        "short": "[USCRS-33529], LF.srs, LF.rtstatus",
+        "short": "[USCRS-33529], LF.srs, LF.sls",
         "definition": "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).\r\ncoding[0].code請填入USCRS-33529"
       },
       {

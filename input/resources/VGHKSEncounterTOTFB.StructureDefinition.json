@@ -104,7 +104,7 @@
       {
         "id": "Encounter.type.text",
         "path": "Encounter.type.text",
-        "short": "[案件分類, Tw-DRG碼, DRGs碼]]",
+        "short": "[案件分類, Tw-DRG碼, DRGs碼]",
         "definition": "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.\r\ntype[0].text請輸入案件分類\r\ntype[1].text請輸入Tw-DRG碼\r\ntype[2].text請輸入DRGs碼",
         "min": 1
       },

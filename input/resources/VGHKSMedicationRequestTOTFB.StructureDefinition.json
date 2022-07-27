@@ -79,7 +79,7 @@
       {
         "id": "MedicationRequest.category.text",
         "path": "MedicationRequest.category.text",
-        "short": "醫令類別",
+        "short": "[醫令類別]",
         "min": 1
       },
       {

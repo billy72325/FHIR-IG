@@ -52,7 +52,7 @@
       {
         "id": "Observation.code.text",
         "path": "Observation.code.text",
-        "short": "[急性病床天數]",
+        "short": "[急性病床天數|慢性病床天數]",
         "min": 1
       },
       {
@@ -150,6 +150,7 @@
       {
         "id": "Observation.value[x].unit",
         "path": "Observation.value[x].unit",
+        "short": "[days]",
         "min": 1,
         "fixedString": "days"
       },
