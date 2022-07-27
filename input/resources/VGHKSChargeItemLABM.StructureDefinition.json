@@ -14,11 +14,6 @@
   "differential": {
     "element": [
       {
-        "id": "ChargeItem.identifier",
-        "path": "ChargeItem.identifier",
-        "max": "0"
-      },
-      {
         "id": "ChargeItem.definitionUri",
         "path": "ChargeItem.definitionUri",
         "max": "0"
